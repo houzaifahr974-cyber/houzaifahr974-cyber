@@ -125,6 +125,7 @@ EastBund facture 362 USD de frais origine + une ligne « Emergency Bunker Surcha
 - Sinon, LBT l'absorbe : marge brute 408 − 150 = 258 USD.
 
 **Rentabilité finale (hypothèse : surcharge justifiée et refacturée) :**
+
 | | USD |
 |---|---:|
 | Vente initiale + EBS refacturée | 3 300 + 150 = 3 450 |

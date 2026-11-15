@@ -1,6 +1,7 @@
 # LIVRABLE E — FICHE DE RÉVISION (2 pages)
 
 ## 1. Les 5 notions à ne pas confondre
+
 | Notion | Critère | Exemple |
 |---|---|---|
 | Import/export | 2 pays, 1 vente | Yantian → Port Réunion pour un magasin réunionnais |
@@ -21,6 +22,7 @@
 **Arrivée/clôture** : 17 Dédouanement · 18 Livraison (D&D) · 19 Facturation/rentabilité · 20 Clôture/RETEX
 
 ## 4. Incoterms® 2020 (version en vigueur — vérifier sur iccwbo.org)
+
 | Règle | Risque passe… | Fret principal | Assurance |
 |---|---|---|---|
 | EXW | Chez le vendeur, non chargé | Acheteur | — |
@@ -67,7 +69,7 @@
 - **Sanctions UE** : s'appliquent à toute entreprise de l'UE, même en Cross-Trade hors UE.
 
 ## 8. Acronymes
-AIS · ATA/ATD · B/L · BAF · CY · D&D · D/O · DTHC/OTHC · eB/L · ENS · ETA/ETD · FCL/LCL · GRI · HBL/MBL · HS/SH · ICS2 · NVOCC · OMR · PSS · RFQ · SI · TEU/EVP · THC · TMS · VGM · UCP 600
+AIS · ATA/ATD · B/L · BAF · CFS · CY · D&D · D/O · D/P · DTS · ETB · ETS · FCL/LCL · GA · IMDG · ISBP · OOG · PTI · RT · URC · DTHC/OTHC · eB/L · ENS · ETA/ETD · FCL/LCL · GRI · HBL/MBL · HS/SH · ICS2 · NVOCC · OMR · PSS · RFQ · SI · TEU/EVP · THC · TMS · VGM · UCP 600
 
 ## 9. Les 10 erreurs à éviter
 1. Appeler « Cross-Trade » une importation sans préciser le sens.
@@ -80,3 +82,15 @@ AIS · ATA/ATD · B/L · BAF · CY · D&D · D/O · DTHC/OTHC · eB/L · ENS · 
 8. Avancer des taxes sans garantie de paiement.
 9. Utiliser un Switch B/L pour modifier un fait (port, origine, quantité).
 10. Laisser le client découvrir un incident avant vous.
+
+---
+
+# FICHE COMPLÉMENTAIRE — Approfondissements (Modules 11 à 18, 1 page)
+- **LCL** : RT = max (m³ ; tonnes) ; CFS d'origine et de destination ; 1 MBL, 1 HBL par client ; seuil FCL à calculer porte à porte (souvent 13 à 21 m³ selon les hypothèses).
+- **Assurance** : ICC (C) minimum en CIF, ICC (A) en CIP ; vol et casse seulement en (A). **La Haye-Visby** : 666,67 DTS/colis ou 2 DTS/kg (la plus haute) ; réserves à la livraison ou sous 3 jours ; action en 1 an. **Avarie commune** : contribution proportionnelle à la valeur, même intacte (Règles d'York et d'Anvers). Commissionnaire : prescription 1 an, privilège (art. L132-2 C. com.).
+- **Conteneurs** (indicatif) : 20' ≈ 33 m³ · 40' ≈ 67 m³ · 40'HC ≈ 76 m³ · reefer · open top · flat rack. **IMDG** : amendement 42-24 obligatoire depuis le 01/01/2026 ; 9 classes ; accord compagnie avant booking ; jamais de fausse déclaration.
+- **Paiement** : compte ouvert → Sea Waybill ; D/P → B/L à ordre ; crédit documentaire → jeu complet de B/L originaux. Présentation : 21 jours après expédition (UCP 600, art. 14 c). Négoce : crédit **transférable** (art. 38) ou **adossé**.
+- **Géographie** : hubs (Asie du Sud-Est, Moyen-Orient, Port-Louis, Port Réunion), feeders vers Toamasina, Longoni, Moroni (barges). Alliances 2026 : Gemini, Premier, Ocean, MSC indépendante. OMIT, blank sailing, ETB.
+- **Environnement** : EU ETS maritime (100 % intra-UE, 50 % UE ↔ hors UE ; 40/70/100 %) ; dérogation régions ultrapériphériques ↔ même État jusqu'au 31/12/2030 (révision en discussion) ; FuelEU depuis 2025 (– 2 %).
+- **Pays** : Maurice (MRA, hub), Madagascar (Toamasina, MICTSL), Mayotte (UE, pas de TVA), Comores (Moroni, barges, SYDONIA). Préférences UE-ESA : droits de douane seulement.
+- **Éthique** : paiement de facilitation = corruption (art. 435-3 C. pén.) ; Sapin II ; méthode **R.E.F.U.S.**

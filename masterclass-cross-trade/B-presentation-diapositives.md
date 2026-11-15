@@ -1,4 +1,4 @@
-# LIVRABLE B — PRÉSENTATION (38 diapositives) avec notes du professeur
+# LIVRABLE B — PRÉSENTATION (47 diapositives) avec notes du professeur
 
 > **Direction artistique :** bleu marine `#0B2545` (fonds titres), bleu océan `#13678A` (schémas), blanc, accents orange `#F28C28` (chiffres clés, alertes). Typographie sans empattement (ex. Montserrat / Inter). Photos : navires porte-conteneurs, portiques de terminaux, cartes maritimes (banques d'images libres de droits ; vérifier la licence). **Règle : 6 lignes maximum par diapositive** ; tout le détail est dans les notes.
 >
@@ -463,9 +463,126 @@
 **Notes du professeur :** Distinguer clairement l'existant et ce qui nécessite une intégration. Rappeler RGPD, confidentialité, journalisation, contrôle 4 yeux.
 **Explication orale :** « L'IA peut lire 150 e-mails en une minute. Elle ne peut pas encore appeler un client furieux et le rassurer. Ça, c'est vous. »
 **Exemple concret :** Pré-rédaction d'une demande de précisions sur une RFQ incomplète, validée par le coordinateur.
+**Transition :** « Allons plus loin : groupage, assurance, marchandises spéciales, paiement, géographie, environnement, fiches pays et éthique. »
+
+## Diapo 37 — Neuf mètres cubes : groupage ou conteneur complet ?
+**Message essentiel :** En groupage (LCL), on paie le plus grand du poids ou du volume ; le FCL devient intéressant bien avant d'être plein.
+**Contenu visible :**
+- Groupeur · CFS d'origine · 1 MBL, 1 HBL par client · CFS de destination
+- Tonne de fret (RT) = max (m³ ; tonnes)
+- Kaz Déco : 9 m³ → 1 168 USD en LCL 🧪
+- Seuil de bascule vers un 20' ≈ 21 m³ (hypothèses du cas)
+**Visuel recommandé :** Un conteneur coupé en trois couleurs (trois expéditeurs), et à côté une courbe LCL qui croise la ligne horizontale FCL.
+**Notes du professeur :** Expliquer la chaîne du groupage, la règle W/M (exemples léger/lourd), les frais spécifiques (CFS, documentation, magasinage) et le calcul du seuil. Nuancer : en pratique, on bascule souvent plus tôt (13-15 m³) pour la sécurité et le délai ; toujours comparer porte à porte.
+**Explication orale :** « En groupage, vous ne payez pas votre place dans le conteneur : vous payez le plus encombrant entre votre poids et votre volume. »
+**Exemple concret :** 5,5 m³ et 7 200 kg = 7,2 RT : c'est le poids qui l'emporte.
+**Transition :** « Que le conteneur soit plein ou partagé, une question demeure : que se passe-t-il si la marchandise arrive abîmée ? »
+
+## Diapo 38 — Le jour où la marchandise arrive abîmée
+**Message essentiel :** Sans réserves immédiates et sans assurance adaptée, le client perd presque toujours.
+**Contenu visible :**
+- ICC (C) minimum · ICC (A) « tous risques »
+- Transporteur : 666,67 DTS par colis ou 2 DTS/kg (La Haye-Visby)
+- Réserves : à la livraison, ou 3 jours si non apparent
+- Action : 1 an (transporteur et commissionnaire)
+**Visuel recommandé :** Photo de cartons écrasés au déchargement, avec un chronomètre « 3 jours ».
+**Notes du professeur :** Tableau ICC (A)/(B)/(C) et exclusions communes ; limitation de responsabilité et piège du « colis » (nombre de cartons au B/L) ; procédure en 6 gestes ; privilège et droit de rétention du commissionnaire.
+**Explication orale :** « "Sous réserve de déballage" ne protège presque rien. "12 cartons écrasés côté porte" protège tout. »
+**Exemple concret :** 40 cartons détruits : 8 200 USD indemnisés si les cartons sont comptés au B/L, 2 052 USD si seul le conteneur est déclaré.
+**Transition :** « Et parfois, même une marchandise intacte coûte de l'argent : c'est l'avarie commune. »
+
+## Diapo 39 — L'avarie commune : payer pour une marchandise intacte
+**Message essentiel :** Quand on sacrifie une partie pour sauver le tout, tout le monde contribue.
+**Contenu visible :**
+- Sacrifice ou dépense extraordinaire pour sauver navire et cargaisons
+- Contribution proportionnelle à la valeur (Règles d'York et d'Anvers)
+- Exemple : 5 M ÷ 102 M = 4,90 % → 4 166,67 USD 🧪
+- Assuré : l'assureur garantit · Non assuré : dépôt en espèces
+**Visuel recommandé :** Balance : navire et conteneurs d'un côté, une pile de pièces de l'autre.
+**Notes du professeur :** Expliquer le principe, le rôle du dispacheur, le compromis et la garantie exigés avant livraison, le rôle d'alerte du transitaire.
+**Explication orale :** « Votre conteneur n'a rien. Mais il a été sauvé avec les autres : il paie sa part du sauvetage. »
+**Exemple concret :** Maurilux, conteneur de 85 000 USD : contribution de 4 166,67 USD.
+**Transition :** « Toutes les boîtes ne se ressemblent pas : passons aux conteneurs et aux marchandises spéciales. »
+
+## Diapo 40 — Tout ne rentre pas dans une boîte standard
+**Message essentiel :** Chaque marchandise a son équipement, et les marchandises dangereuses se déclarent toujours.
+**Contenu visible :**
+- 20' ≈ 33 m³ · 40' ≈ 67 m³ · 40'HC ≈ 76 m³ (indicatif)
+- Reefer : consigne, PTI, branchement, free time réduit
+- Open top / flat rack pour le hors gabarit
+- IMDG : amendement 42-24 obligatoire depuis le 01/01/2026
+**Visuel recommandé :** Six silhouettes de conteneurs côte à côte avec leurs volumes ; un pictogramme de batterie lithium en rouge.
+**Notes du professeur :** Parcourir le tableau des conteneurs (valeurs indicatives, vérifier la fiche de l'équipement et les limites routières). IMDG : 9 classes, documents à obtenir avant booking, accord compagnie, fausse déclaration. Reefer et OOG.
+**Explication orale :** « La question qui sauve des navires : "Y a-t-il des batteries, des liquides ou des aérosols ?" »
+**Exemple concret :** Des trottinettes électriques en groupage : batteries lithium, déclaration IMDG, et souvent un refus du groupeur.
+**Transition :** « La marchandise est partie. Reste une question décisive : comment et quand sera-t-elle payée ? »
+
+## Diapo 41 — Choisir un paiement, c'est choisir un document
+**Message essentiel :** Le mode de paiement détermine le document de transport, et l'inverse.
+**Contenu visible :**
+- Compte ouvert → Sea Waybill (vendeur sans levier)
+- Remise documentaire D/P → B/L original à ordre
+- Crédit documentaire → jeu complet de B/L originaux
+- Négoce : crédit transférable ou adossé
+**Visuel recommandé :** Escalier du risque vendeur (avance → crédit documentaire → D/P → D/A → compte ouvert), avec le document adapté à chaque marche.
+**Notes du professeur :** Règles ICC (URC 522, UCP 600, ISBP 821, URDG 758, ISP98). Dates du crédit (date limite d'expédition, 21 jours, validité). Les 10 réserves les plus fréquentes. Crédit transférable (art. 38 UCP 600) vs adossé, avec l'exemple d'Hexa.
+**Explication orale :** « Une Sea Waybill pour un paiement à 60 jours, c'est donner les clés de la maison avant d'avoir reçu le loyer. »
+**Exemple concret :** Première vente à un client malgache : crédit documentaire confirmé et B/L à ordre.
+**Transition :** « Pour livrer à temps, encore faut-il savoir par où passe le navire. »
+
+## Diapo 42 — Par où passe vraiment votre conteneur ?
+**Message essentiel :** L'océan Indien fonctionne en hubs et feeders ; un planning est une intention, pas une promesse.
+**Contenu visible :**
+- Hubs : Asie du Sud-Est, Moyen-Orient, Port-Louis, Port Réunion
+- Alliances 2026 : Gemini · Premier · Ocean · MSC indépendante
+- Lire un planning : ETB, OMIT, blank sailing, cut-offs
+- Saison cyclonique, déroutements, congestion
+**Visuel recommandé :** Carte de l'océan Indien avec les hubs en orange et les feeders en pointillés vers Toamasina, Longoni, Moroni.
+**Notes du professeur :** Faits vérifiés : Port-Louis premier lieu de transbordement régional (données 2019), Port Réunion hub CMA CGM depuis 2015, Moroni limité à 5,5 m à quai. Alliances (à revérifier). Exercice de lecture du planning fictif.
+**Explication orale :** « Avant de donner une date, regardez trois choses : l'escale est-elle maintenue, le départ n'est-il pas annulé, et sommes-nous en saison cyclonique ? »
+**Exemple concret :** BLUE LAGOON omet Ningbo, et la semaine suivante est annulée : le client doit le savoir avant de produire.
+**Transition :** « Sur ces routes, une nouvelle ligne de prix est apparue : l'environnement. »
+
+## Diapo 43 — L'environnement est devenu une ligne de prix
+**Message essentiel :** ETS et FuelEU se répercutent dans les surcharges ; La Réunion bénéficie de règles particulières, à vérifier.
+**Contenu visible :**
+- EU ETS maritime depuis 2024 : 100 % intra-UE, 50 % UE ↔ hors UE
+- Montée en charge : 40 % → 70 % → 100 % (2026)
+- Dérogation régions ultrapériphériques ↔ même État : jusqu'au 31/12/2030
+- FuelEU Maritime depuis 2025 : – 2 % d'intensité GES
+**Visuel recommandé :** Facture de fret avec la ligne « EU ETS surcharge » surlignée en orange.
+**Notes du professeur :** Expliquer le champ, la dérogation (texte en vigueur) et la révision en discussion en 2026. Bonnes pratiques de cotation : ligne distincte, niveau en vigueur à l'embarquement, comparaison « all-in ».
+**Explication orale :** « Une offre moins chère est parfois simplement une offre qui a oublié la surcharge environnementale. »
+**Exemple concret :** 25 EUR/EVP hypothétiques × 2 EVP = 50 EUR par 40'HC.
+**Transition :** « Chaque île de la région a ses propres règles. Faisons le tour. »
+
+## Diapo 44 — Quatre îles, quatre règles
+**Message essentiel :** Maurice, Madagascar, Mayotte et les Comores ne se traitent pas de la même façon.
+**Contenu visible :**
+- Maurice : hub, MRA, pays tiers, APE UE-ESA
+- Madagascar : Toamasina (MICTSL), congestion, change
+- Mayotte : UE, douane française, octroi de mer, pas de TVA
+- Comores : Moroni (barges), SYDONIA, guichet unique
+**Visuel recommandé :** Quatre cartes postales stylisées, une par territoire, avec port, douane et monnaie.
+**Notes du professeur :** Parcourir les fiches pays ; insister sur « à confirmer pour chaque dossier ». Point origine : préférences UE-ESA sur les droits, pas sur l'octroi de mer.
+**Explication orale :** « Et si, au port, on vous propose de "faciliter" le dossier contre 200 dollars en liquide ? La réponse est non, et je vais vous montrer comment le dire sans bloquer le conteneur. »
+**Exemple concret :** Un conteneur Ningbo → Moroni : hub de transbordement, barges, contrôle documentaire renforcé.
+**Transition :** « Dernier sujet, et pas le moindre : que faire quand on vous propose de "faciliter" un dossier ? »
+
+## Diapo 45 — Refuser sans bloquer le dossier
+**Message essentiel :** Un paiement de facilitation est de la corruption en droit français ; on le refuse avec méthode.
+**Contenu visible :**
+- Art. 435-3 du Code pénal : aucune exception pour la facilitation
+- Loi Sapin II : programme anticorruption, évaluation des tiers
+- Signaux : espèces, « frais spéciaux », pas de facture
+- Méthode R.E.F.U.S. : Rester courtois · Énoncer · Formaliser · Utiliser les voies officielles · Signaler
+**Visuel recommandé :** Une main qui repousse une enveloppe, à côté d'un reçu officiel tamponné.
+**Notes du professeur :** Définir le paiement de facilitation ; droit français, Sapin II (seuils 500 salariés / 100 M€, AFA), UK Bribery Act, FCPA ; exception de contrainte (sécurité) documentée et signalée. Jouer la scène : le client dit « payez, je vous rembourse ». Montrer la réponse type et les alternatives officielles.
+**Explication orale :** « Un dossier bloqué se débloque avec de la méthode et du temps. Un paiement illégal, lui, vous suit toute votre carrière. »
+**Exemple concret :** « Pouvez-vous m'indiquer le barème officiel de ces frais ? Nous les réglerons contre reçu. »
 **Transition :** « Il est temps de rassembler les fils. »
 
-## Diapo 37 — Ce que le conteneur ne dit pas
+## Diapo 46 — Ce que le conteneur ne dit pas
 **Message essentiel :** Trois fils, un quatrième point sur la carte.
 **Contenu visible :**
 - 🔩 Le fil d'acier : le conteneur
@@ -478,7 +595,7 @@
 **Exemple concret :** Retour sur Hexa : triangulaire pour Hexa, Cross-Trade pour son transitaire.
 **Transition :** « Dernière épreuve : trois questions, trente secondes. »
 
-## Diapo 38 — Quiz éclair et ressources
+## Diapo 47 — Quiz éclair et ressources
 **Message essentiel :** Vérifier les trois idées essentielles avant de partir.
 **Contenu visible :**
 - Chine → Réunion piloté depuis la Réunion : Cross-Trade ?

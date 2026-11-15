@@ -507,22 +507,6 @@ flowchart LR
 
 > 🧠 **À retenir :** *Demain, le bon transitaire ne sera pas celui qui tape le plus vite, mais celui qui **automatise le répétitif** et **garde son jugement** pour l'exceptionnel.*
 
+
 ---
-
-# 🎓 CONCLUSION — « Ce que le conteneur ne dit pas »
-
-> *(Le professeur reprend la carte du début : Foshan, Marseille, Antananarivo. Puis Shanghai, Le Port, Port-Louis.)*
->
-> « Il y a deux heures, ces points étaient isolés. Maintenant, vous voyez trois fils : un fil d'acier — le conteneur ; un fil de papier — les documents ; un fil d'or — l'argent. Le Cross-Trade, c'est l'art de tenir ces trois fils **depuis un quatrième point** de la carte, que la marchandise ne touchera jamais.
->
-> Le jour où vous serez en poste, souvenez-vous de trois phrases :
-> 1. **« Où est l'organisateur ? »** — c'est la question qui dit si c'est du Cross-Trade.
-> 2. **« Quel est l'Incoterm, et quel document ? »** — c'est la question qui dit qui supporte le risque et qui contrôle la marchandise.
-> 3. **« Le client l'a-t-il appris par moi ? »** — c'est la question qui dit si vous le garderez.
->
-> Un conteneur ne parle pas. C'est vous qui le faites parler. »
-
-**Quiz éclair de sortie (3 questions, mains levées) :**
-1. Chine → Réunion piloté depuis La Réunion : Cross-Trade strict ? → **Non, importation.**
-2. En CFR, où passe le risque ? → **À la mise à bord au port d'embarquement.**
-3. Le Switch B/L peut-il modifier l'origine ? → **Jamais.**
+➡️ **Suite : [Partie 3 — Modules 11 à 18 (approfondissements)](A3-cours-modules-11-a-18.md)**

@@ -38,6 +38,22 @@
 - **Mayotte** : douane.gouv.fr (rubrique outre-mer) et préfecture de Mayotte.
 - Ports : Grand Port Maritime de La Réunion ; Mauritius Ports Authority ; Société de Gestion du Port de Toamasina (sites officiels).
 
+## 5 bis. Sources des Modules 11 à 18
+- **Institute Cargo Clauses (A), (B), (C) — 2009** (Lloyd's Market Association / International Underwriting Association).
+- **Règles d'York et d'Anvers** (version 2016) — Comité maritime international : https://comitemaritime.org
+- **Code de commerce** : art. L132-2 (privilège du commissionnaire), art. L133-6 (prescription d'un an). https://www.legifrance.gouv.fr
+- **OMI — Code IMDG**, amendement 42-24 (obligatoire depuis le 1er janvier 2026) : https://www.imo.org/en/publications/pages/imdg%20code.aspx ; synthèse BIMCO : https://www.bimco.org/news-insights/bimco-news/2024/20241009-imdg-code-amdt-42-24-summary
+- **ICC — URC 522** (remises documentaires), **UCP 600** et **ISBP 821** (crédits documentaires), **URDG 758** (garanties sur demande), **ISP98** (stand-by).
+- **EU ETS maritime** : directive 2003/87/CE modifiée par la directive (UE) 2023/959 ; pages de la Commission européenne (Climate Action). Dérogation des régions ultrapériphériques (Conseil de l'UE, document ST-7936-2025) : https://data.consilium.europa.eu/doc/document/ST-7936-2025-INIT/en/pdf ; position des armateurs européens (ECSA, juillet 2026) : https://ecsa.eu/eu-ets-revision-european-shipowners-call-for-permanent-ets-derogations-for-islands-outermost-regions-and-ice-classed-ships/
+- **FuelEU Maritime** : règlement (UE) 2023/1805 ; questions-réponses de la Commission : https://transport.ec.europa.eu/transport-modes/maritime/decarbonising-maritime-transport-fueleu-maritime/questions-and-answers-regulation-eu-20231805-use-renewable-and-low-carbon-fuels-maritime-transport_fr
+- **Hubs régionaux** : Direction générale du Trésor, note sur les ports de l'océan Indien : https://www.tresor.economie.gouv.fr/PagesInternationales/Pages/1b6c014e-8609-4ef0-9262-7592c9c7553e/files/a1758312-bb40-4d22-b76f-6cbb047e4ef6 ; Grand Port Maritime de La Réunion : https://reunion.port.fr/en/a-strategic-position/
+- **Alliances 2026** (données sectorielles, à revérifier) : https://gofreight.com/glossary/ocean-carrier-alliances
+- **Madagascar — terminal de Toamasina (MICTSL)** : https://www.seatrade-maritime.com/ports-logistics/ictsi-madagascar-concession-extended-15-years ; situation 2025-2026 : https://www.lexpress.mg/2026/08/toamasina-dimportants-lots-de.html
+- **Comores** : douane (https://douane.gov.km), étude de cas CNUCED/SYDONIA : https://asycuda.org/wp-content/uploads/Etudes%20de%20Cas_SYDONIA_2019_Comores.pdf ; évaluation portuaire (Logistics Cluster) : https://dlca.logcluster.org/node/1438
+- **APE intérimaire UE – Afrique orientale et australe (ESA)** : Commission européenne (Access2Markets) : https://trade.ec.europa.eu/access-to-markets
+- **Anticorruption** : Code pénal art. 435-3 ; loi n° 2016-1691 (Sapin II) ; Agence française anticorruption : https://www.agence-francaise-anticorruption.gouv.fr ; Maritime Anti-Corruption Network : https://macn.dk
+- **Calcul des émissions** : norme ISO 14083:2023.
+
 ## 6. Organismes professionnels
 - **FIATA** (Fédération internationale des associations de transitaires) — documents types (FBL, conditions types) : https://fiata.org
 - **TLF** (Union des entreprises de transport et logistique de France) — conditions générales de vente des commissionnaires (version en vigueur).

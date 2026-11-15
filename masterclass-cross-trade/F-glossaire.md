@@ -1,4 +1,4 @@
-# LIVRABLE F — GLOSSAIRE PROFESSIONNEL FRANÇAIS – ANGLAIS (40 termes)
+# LIVRABLE F — GLOSSAIRE PROFESSIONNEL FRANÇAIS – ANGLAIS (40 termes essentiels + 20 termes complémentaires)
 
 | # | Français | English | Définition |
 |---|----------|---------|------------|
@@ -42,3 +42,28 @@
 | 38 | Certificat d'origine | Certificate of Origin (CO) | Document attestant l'origine de la marchandise. |
 | 39 | Déclaration sommaire d'entrée | Entry Summary Declaration (ENS) | Déclaration préalable de sûreté pour l'entrée dans l'UE (ICS2). |
 | 40 | Commerce triangulaire / opération croisée | Triangular trade / cross-trade | Négoce à 3 parties / transport organisé depuis un pays tiers. |
+
+## Glossaire complémentaire (Modules 11 à 18)
+
+| # | Français | English | Définition |
+|---|----------|---------|------------|
+| 41 | Groupeur | Consolidator | Opérateur qui remplit un conteneur avec les lots de plusieurs clients. |
+| 42 | Entrepôt de groupage | Container Freight Station (CFS) | Lieu d'empotage et de dépotage des conteneurs de groupage. |
+| 43 | Tonne de fret | Revenue ton / freight ton (RT) | Unité de facturation LCL : le plus grand entre m³ et tonnes. |
+| 44 | Poids ou volume | Weight or Measure (W/M) | Règle de taxation sur la plus grande des deux valeurs. |
+| 45 | Avarie commune | General Average (GA) | Sacrifice ou dépense extraordinaire supporté par tous les intérêts au prorata de leur valeur. |
+| 46 | Dispacheur | Average adjuster | Expert qui établit la répartition de l'avarie commune. |
+| 47 | Droit de tirage spécial | Special Drawing Right (SDR / DTS) | Unité de compte du FMI servant aux limitations de responsabilité. |
+| 48 | Réserves | Notice of claim / reservations | Constatation écrite des dommages à la livraison. |
+| 49 | Commissaire d'avaries | Cargo surveyor | Expert qui constate et évalue les dommages. |
+| 50 | Marchandises dangereuses | Dangerous goods (DG) / IMDG cargo | Marchandises régies par le code IMDG. |
+| 51 | Conteneur frigorifique | Reefer container | Conteneur à température dirigée. |
+| 52 | Hors gabarit | Out of Gauge (OOG) | Colis dépassant les dimensions d'un conteneur standard. |
+| 53 | Remise documentaire | Documentary collection (D/P, D/A) | Remise des documents par la banque contre paiement ou acceptation (URC 522). |
+| 54 | Crédit transférable / adossé | Transferable / back-to-back L/C | Montages de crédit documentaire utilisés en négoce. |
+| 55 | Réserve bancaire | Discrepancy | Non-conformité des documents au crédit documentaire. |
+| 56 | Navire collecteur | Feeder vessel | Petit navire reliant un hub aux ports secondaires. |
+| 57 | Départ annulé | Blank sailing | Annulation d'un départ prévu d'un service. |
+| 58 | Système d'échange de quotas | Emissions Trading System (EU ETS) | Mécanisme européen de quotas de CO₂, étendu au maritime depuis 2024. |
+| 59 | Paiement de facilitation | Facilitation payment | Petite somme versée pour accélérer une formalité : interdite en droit français. |
+| 60 | Évaluation des tiers | Third-party due diligence | Vérification de l'intégrité des partenaires (Sapin II). |

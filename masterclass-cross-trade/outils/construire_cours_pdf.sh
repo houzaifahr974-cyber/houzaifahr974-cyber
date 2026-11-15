@@ -11,7 +11,7 @@ cp "$MERMAID_JS" "$SRC/mermaid.min.js"
 trap 'rm -rf "$TMP" "$SRC/mermaid.min.js" "$SRC/cours.html"' EXIT
 
 # Concaténation des livrables, sans les liens de navigation entre fichiers
-for f in A1-cours-modules-1-a-5.md A2-cours-modules-6-a-10.md C-etudes-de-cas.md \
+for f in A1-cours-modules-1-a-5.md A2-cours-modules-6-a-10.md A3-cours-modules-11-a-18.md C-etudes-de-cas.md \
          D-exercices-corriges.md E-fiche-revision.md F-glossaire.md G-ressources.md; do
   grep -vE '^(➡️|⬅️) |^# LIVRABLE A — COURS COMPLET' "$f"
   printf '\n\n'

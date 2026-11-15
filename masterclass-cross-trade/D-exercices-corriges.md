@@ -64,6 +64,7 @@ a) La Réunion est hors UE · b) La Réunion fait partie du territoire douanier 
 a) c'est autorisé car la marchandise ne touche pas l'UE · b) seule la compagnie est responsable · c) il est soumis aux sanctions de l'UE et doit refuser / escalader · d) il suffit d'utiliser un HBL
 
 ### Corrigés justifiés
+
 | Q | Réponse | Justification |
 |---|---------|---------------|
 | 1 | **b** | Organisateur (Réunion) ≠ origine (Chine) ≠ destination (Madagascar). |
@@ -79,7 +80,7 @@ a) c'est autorisé car la marchandise ne touche pas l'UE · b) seule la compagni
 
 ---
 
-## PARTIE 3 — 6 EXERCICES PRATIQUES
+## PARTIE 3 — 9 EXERCICES PRATIQUES
 
 ### Exercice 1 — Qualifier l'opération (15 min)
 Pour chaque cas, indiquez : (1) Cross-Trade strict ? (2) commerce triangulaire ? (3) qui dédouane à destination ?
@@ -101,6 +102,7 @@ Un vendeur européen sans représentant à Madagascar vend à un client malgache
 
 ### Exercice 3 — Contrôle documentaire (20 min)
 Comparez :
+
 | | Facture | Packing list | Draft B/L |
 |---|---|---|---|
 | Colis | 412 CTNS | 412 CTNS | 421 CTNS |
@@ -134,6 +136,39 @@ c) Citez trois mesures concrètes que l'agent d'origine applique pour préserver
 a) Client : recevoir conforme et à temps au coût prévu / frais surprises, retard, payer sans recevoir. Fournisseur : être payé vite / impayé. Trader : marge et position d'intermédiaire / court-circuit, change, documents non conformes. Transitaire : dossier sans incident et rentable / erreur documentaire, impayé, agent défaillant.
 b) Paquet A : facture usine, liste de colisage usine, copie MBL. Paquet B : facture Hexa, liste de colisage neutre, HBL (shipper Hexa), certificat d'origine, certificat d'assurance.
 c) Références de dossier neutres avec le fournisseur ; aucun document commercial dans le conteneur et marquage neutre ; MBL entre agents ; deux listes de diffusion séparées ; clause de non-contournement. Limite : le certificat d'origine (origine, souvent exportateur) et les autorités (douane, banques, sanctions) doivent connaître les vraies parties.
+
+### Exercice 7 — Groupage : tonnes de fret et seuil FCL (20 min)
+Tarifs fictifs : fret LCL 60 USD/RT, CFS origine 20 USD/RT, CFS destination 35 EUR/RT, documentation 40 USD et D/O 60 EUR par expédition. Un 20' complet coûte 2 569,57 USD jusqu'à la disponibilité à Port Réunion. Change : 1 USD = 0,92 EUR.
+a) Calculez les RT pour : (1) 12 m³ / 3 100 kg ; (2) 3 m³ / 4 500 kg.
+b) Coût LCL du lot (1).
+c) Le client prévoit 18 m³ le mois prochain : LCL ou FCL ? Justifiez.
+
+**Corrigé :**
+a) (1) 12 RT ; (2) 4,5 RT (le poids l'emporte).
+b) Coût variable = 60 + 20 + 35 ÷ 0,92 = 118,04 USD/RT ; fixe = 40 + 60 ÷ 0,92 = 105,22 USD → 105,22 + 12 × 118,04 = 105,22 + 1 416,48 = **1 521,70 USD**.
+c) 18 m³ : 105,22 + 18 × 118,04 = 105,22 + 2 124,72 = **2 229,94 USD**, contre 2 569,57 USD en FCL : le LCL reste moins cher de **339,63 USD** au port. Mais l'écart est faible : si la marchandise est fragile, urgente, ou si le FCL peut être empoté à l'usine, le **FCL** se défend. Comparer aussi le coût de livraison porte à porte.
+
+### Exercice 8 — Assurance, limitation et avarie commune (25 min)
+a) Un B/L mentionne « 1 × 20' said to contain 150 cartons ». 25 cartons (500 kg, valeur 6 000 USD) sont perdus. Limite La Haye-Visby ? (1 DTS = 1,35 USD 🧪)
+b) Même perte, mais le B/L indique seulement « 1 × 20' said to contain household goods ». Limite ?
+c) Avarie commune déclarée : 3 M USD ; valeurs contributives totales : 75 M USD. Contribution d'un conteneur valant 60 000 USD ?
+d) Le client était assuré en ICC (C). Est-il couvert pour (a) et pour (c) ?
+
+**Corrigé :**
+a) Par colis : 25 × 666,67 = 16 666,75 DTS ; au kilo : 500 × 2 = 1 000 DTS → limite 16 666,75 DTS = 22 500,11 USD > préjudice → indemnité maximale **6 000 USD** (sous réserve des cas exceptés).
+b) Un seul « colis » énuméré (le conteneur) : 666,67 DTS ; au kilo : 1 000 DTS → limite **1 000 DTS = 1 350 USD**.
+c) Taux = 3 ÷ 75 = 4 % → **2 400 USD**.
+d) (a) Une perte de cartons sans événement majeur (vol, manquant) n'est **pas couverte en ICC (C)** ; (c) la **contribution d'avarie commune est couverte** par les trois clauses ICC : l'assureur émet la garantie et prend en charge la contribution.
+
+### Exercice 9 — Paiement, document et crédit documentaire (20 min)
+Un crédit documentaire exige : « Full set 3/3 clean on board B/L made out to order of Banque Australe, notify applicant ; latest shipment date 15/05 ; presentation within 21 days ; expiry 10/06 ; insurance 110 % ICC (A) ».
+Le B/L est daté « on board » du 14/05 ; les documents sont présentés le 07/06 ; le certificat d'assurance est daté du 16/05 et couvre 100 % de la valeur en ICC (A). Listez les réserves.
+
+**Corrigé :**
+1. **Présentation tardive** : 14/05 + 21 jours = 04/06 ; présenté le 07/06 → réserve (même si la validité court jusqu'au 10/06).
+2. **Assurance datée après l'expédition** (16/05 > 14/05) sans mention de couverture à partir de l'embarquement → réserve.
+3. **Montant d'assurance insuffisant** (100 % au lieu de 110 %) → réserve.
+La date d'expédition (14/05) respecte la date limite. **Leçon :** le transitaire et le vendeur doivent organiser **l'assurance avant le départ** et **l'envoi des documents dès l'émission du B/L**.
 
 ---
 
@@ -177,6 +212,7 @@ c) Références de dossier neutres avec le fournisseur ; aucun document commerci
 **2. (3 pts)** Achat FCA Ningbo terminal : risque transféré à OIN à la remise au transporteur au terminal de Ningbo (1 pt). Vente CIP Port-Louis : risque transféré à SolarMoris à la remise au premier transporteur — c'est-à-dire, ici, le même point (terminal de Ningbo) → points de risque **alignés** (1 pt). OIN paie le transport principal et doit une assurance **ICC (A)**, 110 % (CIP 2020) (1 pt).
 
 **3. (4 pts)**
+
 | Poste | Calcul | EUR |
 |-------|--------|----:|
 | CA | | 138 000,00 |
