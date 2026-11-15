@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Masterclass Cross-Trade — Carrousel LinkedIn</title>
+<style>
+@font-face{font-family:Inter;src:url(fonts/inter-latin-400-normal.woff2);font-weight:400}
+@font-face{font-family:Inter;src:url(fonts/inter-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:Inter;src:url(fonts/inter-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:Inter;src:url(fonts/inter-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Inter;src:url(fonts/inter-latin-800-normal.woff2);font-weight:800}
+@font-face{font-family:Montserrat;src:url(fonts/montserrat-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:Montserrat;src:url(fonts/montserrat-latin-800-normal.woff2);font-weight:800}
+:root{--navy:#0B2545;--ocean:#13678A;--sky:#E8F1F6;--orange:#F28C28;--red:#D64545;--green:#2E9E6B;--ink:#1C2B3A;--grey:#5B6B7B}
+@page{size:1080px 1350px;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,"DejaVu Sans",sans-serif;color:var(--ink);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;background:#fff;page-break-after:always;padding:96px 84px 150px}
+.slide.dark{background:var(--navy);color:#fff}
+.kicker{font:700 26px Montserrat,sans-serif;letter-spacing:4px;text-transform:uppercase;color:var(--orange);margin-bottom:28px}
+h1{font:800 84px/1.05 Montserrat,sans-serif;letter-spacing:-1px}
+h2{font:800 64px/1.08 Montserrat,sans-serif;color:var(--navy);letter-spacing:-.5px;margin-bottom:28px}
+.dark h2{color:#fff}
+.lead{font-size:34px;line-height:1.4;color:var(--grey);font-weight:500}
+.dark .lead{color:#C9D8E6}
+.big{font:800 46px/1.2 Montserrat,sans-serif;color:var(--navy)}
+.orange{color:var(--orange)} .ocean{color:var(--ocean)} .red{color:var(--red)} .green{color:var(--green)}
+.bar{width:120px;height:10px;background:var(--orange);border-radius:5px;margin:34px 0}
+.footer{position:absolute;left:84px;right:84px;bottom:54px;display:flex;justify-content:space-between;align-items:center;font-size:22px;color:var(--grey);border-top:2px solid #DDE6EE;padding-top:22px}
+.dark .footer{color:#8FA6BD;border-color:#24426A}
+.footer b{color:var(--navy);font-weight:700}.dark .footer b{color:#fff}
+.num{font:800 26px Montserrat,sans-serif;color:var(--orange)}
+.note{font-size:21px;color:var(--grey);margin-top:22px;font-style:italic}
+.dark .note{color:#8FA6BD}
+svg{display:block;margin:0 auto}
+svg text{font-family:Inter,sans-serif}
+.box{background:var(--sky);border-radius:28px;padding:36px 40px;margin-top:28px}
+.box.navy{background:var(--navy);color:#fff}
+.box.orange{background:#FFF1E3;border-left:12px solid var(--orange)}
+table{width:100%;border-collapse:separate;border-spacing:0 12px;font-size:28px}
+th{font:700 24px Montserrat,sans-serif;text-transform:uppercase;letter-spacing:1px;color:var(--grey);text-align:left;padding:0 18px}
+td{background:var(--sky);padding:22px 18px;font-weight:600}
+td:first-child{border-radius:16px 0 0 16px;color:var(--grey);font-weight:500}
+td:last-child{border-radius:0 16px 16px 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:20px}
+.card{border-radius:26px;padding:34px;background:var(--sky)}
+.card h3{font:800 34px Montserrat,sans-serif;color:var(--navy);margin-bottom:12px}
+.card p{font-size:27px;line-height:1.35;color:var(--ink)}
+.card .tag{font:800 22px Montserrat,sans-serif;color:var(--orange);letter-spacing:2px}
+ul.clean{list-style:none;font-size:32px;line-height:1.35}
+ul.clean li{padding:18px 0 18px 58px;position:relative;border-bottom:2px solid #E3EBF2}
+ul.clean li:before{content:"";position:absolute;left:8px;top:30px;width:22px;height:22px;border-radius:50%;background:var(--orange)}
+.q{display:flex;gap:30px;align-items:flex-start;margin:30px 0}
+.q .n{flex:none;width:92px;height:92px;border-radius:50%;background:var(--orange);color:#fff;font:800 46px/92px Montserrat,sans-serif;text-align:center}
+.q p{font:700 40px/1.25 Montserrat,sans-serif;color:#fff;padding-top:10px}
+.q span{display:block;font:500 27px/1.35 Inter,sans-serif;color:#C9D8E6;margin-top:10px}
+.swipe{position:absolute;right:84px;bottom:150px;font:800 30px Montserrat,sans-serif;color:var(--orange)}
+</style>
+</head>
+<body>
+
+<!-- 1. COUVERTURE -->
+<section class="slide dark">
+  <div class="kicker">Masterclass · Transit maritime</div>
+  <h1>Un conteneur,<br>trois pays,<br><span class="orange">une seule opération.</span></h1>
+  <div class="bar"></div>
+  <p class="lead">Le Cross-Trade expliqué en 16 slides : flux, Incoterms®, B/L, marges et conformité, vu depuis La Réunion.</p>
+  <svg width="912" height="420" viewBox="0 0 912 420">
+    <defs><marker id="a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#F28C28"/></marker></defs>
+    <path d="M150,90 C380,40 600,170 700,320" stroke="#F28C28" stroke-width="8" fill="none" marker-end="url(#a1)"/>
+    <path d="M520,360 C470,260 360,170 330,120" stroke="#8FA6BD" stroke-width="4" stroke-dasharray="12 12" fill="none"/>
+    <circle cx="150" cy="90" r="22" fill="#F28C28"/><text x="150" y="40" text-anchor="middle" fill="#fff" font-size="30" font-weight="700">Shanghai</text>
+    <circle cx="720" cy="340" r="22" fill="#F28C28"/><text x="760" y="408" text-anchor="middle" fill="#fff" font-size="30" font-weight="700">Port-Louis</text>
+    <circle cx="540" cy="370" r="24" fill="#fff"/><circle cx="540" cy="370" r="10" fill="#13678A"/>
+    <text x="470" y="415" text-anchor="end" fill="#fff" font-size="30" font-weight="700">La Réunion</text>
+    <text x="320" y="230" fill="#C9D8E6" font-size="24">pilote à distance</text>
+  </svg>
+  <div class="swipe">Glissez →</div>
+  <div class="footer"><span>Masterclass animée par <b>Houzaifah Rassolmian</b></span><span class="num">1/16</span></div>
+</section>
+
+<!-- 2. L'HISTOIRE -->
+<section class="slide">
+  <div class="kicker">L'énigme</div>
+  <h2>250 000 € de vente.<br>La marchandise ne passe jamais par la France.</h2>
+  <svg width="912" height="560" viewBox="0 0 912 560">
+    <defs>
+      <marker id="o2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#F28C28"/></marker>
+      <marker id="b2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="#13678A"/></marker>
+    </defs>
+    <rect x="20" y="370" width="270" height="150" rx="24" fill="#E8F1F6"/><text x="155" y="430" text-anchor="middle" font-size="30" font-weight="800" fill="#0B2545">Usine</text><text x="155" y="474" text-anchor="middle" font-size="26" fill="#5B6B7B">Foshan, Chine</text>
+    <rect x="320" y="20" width="272" height="150" rx="24" fill="#0B2545"/><text x="456" y="82" text-anchor="middle" font-size="30" font-weight="800" fill="#fff">Négociant</text><text x="456" y="126" text-anchor="middle" font-size="26" fill="#C9D8E6">Marseille, France</text>
+    <rect x="622" y="370" width="270" height="150" rx="24" fill="#E8F1F6"/><text x="757" y="430" text-anchor="middle" font-size="30" font-weight="800" fill="#0B2545">Client</text><text x="757" y="474" text-anchor="middle" font-size="26" fill="#5B6B7B">Antananarivo</text>
+    <line x1="300" y1="445" x2="606" y2="445" stroke="#F28C28" stroke-width="10" marker-end="url(#o2)"/>
+    <text x="456" y="420" text-anchor="middle" font-size="24" font-weight="700" fill="#F28C28">Nansha → Toamasina</text>
+    <line x1="170" y1="360" x2="330" y2="180" stroke="#13678A" stroke-width="5" stroke-dasharray="14 10" marker-end="url(#b2)"/>
+    <text x="150" y="260" font-size="24" font-weight="700" fill="#13678A">Contrat 1</text>
+    <line x1="590" y1="180" x2="740" y2="360" stroke="#13678A" stroke-width="5" stroke-dasharray="14 10" marker-end="url(#b2)"/>
+    <text x="690" y="260" font-size="24" font-weight="700" fill="#13678A">Contrat 2</text>
+  </svg>
+  <div class="box navy"><p style="font:700 36px/1.3 Montserrat,sans-serif">2 contrats de vente + 1 seul trajet = <span class="orange">commerce triangulaire.</span></p><p style="font-size:27px;color:#C9D8E6;margin-top:12px">Et si le transport est piloté depuis un 4<sup>e</sup> pays ? C'est là qu'entre le Cross-Trade.</p></div>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b> · cas fictif</span><span class="num">2/16</span></div>
+</section>
+
+<!-- 3. TEST DES 3 ÉPINGLES -->
+<section class="slide">
+  <div class="kicker">La définition</div>
+  <h2>Le test des 3 épingles</h2>
+  <svg width="912" height="430" viewBox="0 0 912 430">
+    <g transform="translate(150,40)"><path d="M0,90 C0,30 100,30 100,90 C100,140 50,190 50,230 C50,190 0,140 0,90z" fill="#13678A"/><circle cx="50" cy="88" r="22" fill="#fff"/><text x="50" y="290" text-anchor="middle" font-size="32" font-weight="800" fill="#0B2545">Origine</text><text x="50" y="330" text-anchor="middle" font-size="26" fill="#5B6B7B">Shanghai</text></g>
+    <g transform="translate(406,0)"><path d="M0,90 C0,30 100,30 100,90 C100,140 50,190 50,230 C50,190 0,140 0,90z" fill="#F28C28"/><circle cx="50" cy="88" r="22" fill="#fff"/><text x="50" y="290" text-anchor="middle" font-size="32" font-weight="800" fill="#F28C28">Organisateur</text><text x="50" y="330" text-anchor="middle" font-size="26" fill="#5B6B7B">La Réunion</text></g>
+    <g transform="translate(662,40)"><path d="M0,90 C0,30 100,30 100,90 C100,140 50,190 50,230 C50,190 0,140 0,90z" fill="#13678A"/><circle cx="50" cy="88" r="22" fill="#fff"/><text x="50" y="290" text-anchor="middle" font-size="32" font-weight="800" fill="#0B2545">Destination</text><text x="50" y="330" text-anchor="middle" font-size="26" fill="#5B6B7B">Port-Louis</text></g>
+    <line x1="200" y1="420" x2="712" y2="420" stroke="#F28C28" stroke-width="6" stroke-dasharray="4 14" stroke-linecap="round"/>
+  </svg>
+  <div class="box orange"><p class="big">L'organisateur n'est ni à l'origine ni à destination ?<br><span class="orange">→ Cross-Trade au sens strict.</span></p></div>
+  <p class="lead" style="margin-top:34px">Commerce triangulaire = une question de <b>contrats</b>.<br>Cross-Trade = une question de <b>géographie de l'organisateur</b>.<br>Les deux peuvent se combiner… ou pas.</p>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">3/16</span></div>
+</section>
+
+<!-- 4. LE PIÈGE -->
+<section class="slide">
+  <div class="kicker">La question piège</div>
+  <h2>Chine → La Réunion, piloté depuis La Réunion : Cross-Trade&nbsp;?</h2>
+  <p class="big red" style="margin-bottom:20px">Non. C'est une importation.</p>
+  <table>
+    <tr><th></th><th>Import Chine → Réunion</th><th>Chine → Maurice</th></tr>
+    <tr><td>Douane à La Réunion</td><td>Oui</td><td>Aucune</td></tr>
+    <tr><td>ICS2 (ENS UE)</td><td>Oui</td><td>Non</td></tr>
+    <tr><td>Octroi de mer + TVA DOM</td><td>Oui</td><td>Non</td></tr>
+    <tr><td>Qui dédouane&nbsp;?</td><td>Le transitaire réunionnais</td><td>Un agent à Maurice</td></tr>
+  </table>
+  <p class="lead" style="margin-top:26px;font-size:29px">Beaucoup de services « Cross-Trade » gèrent aussi des imports : le nom décrit une <b>compétence</b> (agents étrangers, anglais, USD), pas une <b>géographie</b>.</p>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">4/16</span></div>
+</section>
+
+<!-- 5. TROIS FLUX -->
+<section class="slide">
+  <div class="kicker">Les acteurs</div>
+  <h2>3 flux, 3 chemins,<br>3 rythmes</h2>
+  <svg width="912" height="600" viewBox="0 0 912 600">
+    <g font-size="27" font-weight="700">
+      <text x="0" y="60" fill="#F28C28">Physique : le conteneur</text>
+      <line x1="0" y1="100" x2="900" y2="100" stroke="#F28C28" stroke-width="10" stroke-linecap="round"/>
+      <g fill="#F28C28"><circle cx="40" cy="100" r="18"/><circle cx="300" cy="100" r="18"/><circle cx="560" cy="100" r="18"/><circle cx="860" cy="100" r="18"/></g>
+      <g font-size="22" font-weight="500" fill="#5B6B7B"><text x="40" y="150" text-anchor="middle">Usine</text><text x="300" y="150" text-anchor="middle">Terminal</text><text x="560" y="150" text-anchor="middle">En mer</text><text x="860" y="150" text-anchor="middle">Client</text></g>
+      <text x="0" y="250" fill="#13678A">Documentaire : la preuve</text>
+      <line x1="0" y1="290" x2="900" y2="290" stroke="#13678A" stroke-width="10" stroke-linecap="round"/>
+      <g fill="#13678A"><circle cx="40" cy="290" r="18"/><circle cx="220" cy="290" r="18"/><circle cx="400" cy="290" r="18"/><circle cx="640" cy="290" r="18"/><circle cx="860" cy="290" r="18"/></g>
+      <g font-size="22" font-weight="500" fill="#5B6B7B"><text x="40" y="340" text-anchor="middle">Booking</text><text x="220" y="340" text-anchor="middle">SI + VGM</text><text x="400" y="340" text-anchor="middle">B/L</text><text x="640" y="340" text-anchor="middle">Préalerte</text><text x="860" y="340" text-anchor="middle">Bon à enlever</text></g>
+      <text x="0" y="440" fill="#2E9E6B">Financier : l'argent</text>
+      <line x1="0" y1="480" x2="900" y2="480" stroke="#2E9E6B" stroke-width="10" stroke-linecap="round"/>
+      <g fill="#2E9E6B"><circle cx="40" cy="480" r="18"/><circle cx="450" cy="480" r="18"/><circle cx="860" cy="480" r="18"/></g>
+      <g font-size="22" font-weight="500" fill="#5B6B7B"><text x="40" y="530" text-anchor="middle">Facture</text><text x="450" y="530" text-anchor="middle">Paiement / crédit doc.</text><text x="860" y="530" text-anchor="middle">Règlements</text></g>
+    </g>
+  </svg>
+  <div class="box navy"><p style="font:700 34px/1.35 Montserrat,sans-serif">La marchandise voyage en mer, les documents suivent la confiance, l'argent suit les contrats.<br><span class="orange">Le transitaire synchronise les trois.</span></p></div>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">5/16</span></div>
+</section>
+
+<!-- 6. 20 ÉTAPES -->
+<section class="slide">
+  <div class="kicker">L'opération</div>
+  <h2>Un dossier maritime = 20 étapes</h2>
+  <div class="grid2">
+    <div class="card"><div class="tag">PHASE 1 · ÉTAPES 1-8</div><h3>Commercial</h3><p>Demande · analyse (10 questions) · agents · solutions · comparaison · prix et marge · offre · <b>acceptation écrite</b></p></div>
+    <div class="card"><div class="tag">PHASE 2 · ÉTAPES 9-12</div><h3>Pré-embarquement</h3><p>Booking · coordination expéditeur · SI, VGM, draft B/L · <b>cut-offs</b></p></div>
+    <div class="card"><div class="tag">PHASE 3 · ÉTAPES 13-16</div><h3>Transport</h3><p>Embarquement · suivi ETD/ETA · transbordements et retards · <b>préalerte</b></p></div>
+    <div class="card"><div class="tag">PHASE 4 · ÉTAPES 17-20</div><h3>Arrivée &amp; clôture</h3><p>Dédouanement · livraison · facturation et <b>contrôle de marge</b> · retour d'expérience</p></div>
+  </div>
+  <div class="box orange"><p class="big" style="font-size:40px">Le client en voit deux : le prix et la livraison.<br><span class="orange">Les 18 autres font votre réputation.</span></p></div>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">6/16</span></div>
+</section>
+
+<!-- 7. CUT-OFFS -->
+<section class="slide">
+  <div class="kicker">Avant le départ</div>
+  <h2>Il n'y a pas UN cut-off.<br><span class="orange">Il y en a quatre.</span></h2>
+  <div class="grid2">
+    <div class="card"><h3>SI cut-off</h3><p>Instructions transmises.<br><b>Sinon :</b> B/L impossible ou modification payante.</p></div>
+    <div class="card" style="background:#FFF1E3"><h3>VGM cut-off</h3><p>Poids brut vérifié déclaré.<br><b class="red">Sinon : pas de chargement (SOLAS).</b></p></div>
+    <div class="card"><h3>CY cut-off</h3><p>Conteneur plein au terminal.<br><b>Sinon :</b> roulé au navire suivant.</p></div>
+    <div class="card"><h3>Cut-off douane</h3><p>Export dédouané.<br><b>Sinon :</b> le conteneur reste à quai.</p></div>
+  </div>
+  <p class="lead" style="margin-top:40px">Le navire n'attend personne. Ni vous, ni votre client, ni votre excuse.</p>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">7/16</span></div>
+</section>
+
+<!-- 8. INCOTERMS EN C -->
+<section class="slide">
+  <div class="kicker">Incoterms® 2020</div>
+  <h2 style="font-size:54px">En « C », le vendeur paie le voyage…<br><span class="orange">l'acheteur voyage à ses risques.</span></h2>
+  <svg width="912" height="430" viewBox="0 0 912 430">
+    <defs><marker id="b8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0L10,5L0,10z" fill="#13678A"/></marker></defs>
+    <line x1="40" y1="230" x2="880" y2="230" stroke="#C9D8E6" stroke-width="6"/>
+    <g font-size="24" font-weight="600" fill="#0B2545" text-anchor="middle">
+      <circle cx="60" cy="230" r="16" fill="#0B2545"/><text x="60" y="290">Usine</text>
+      <circle cx="250" cy="230" r="16" fill="#0B2545"/><text x="250" y="290">Terminal</text>
+      <circle cx="410" cy="230" r="16" fill="#0B2545"/><text x="410" y="290">À bord</text><text x="410" y="322" font-size="20" fill="#5B6B7B">Shanghai</text>
+      <circle cx="840" cy="230" r="16" fill="#0B2545"/><text x="840" y="290">Port</text><text x="840" y="322" font-size="20" fill="#5B6B7B">Port-Louis</text>
+    </g>
+    <line x1="60" y1="150" x2="828" y2="150" stroke="#13678A" stroke-width="14" marker-end="url(#b8)"/>
+    <text x="450" y="405" text-anchor="middle" font-size="26" font-weight="800" fill="#13678A">Barre bleue : FRAIS payés par le vendeur jusqu'à destination</text>
+    <path d="M425,30 L385,110 L415,110 L395,190 L455,90 L422,90 L445,30z" fill="#F28C28"/>
+    <text x="470" y="70" font-size="26" font-weight="800" fill="#F28C28">RISQUE transféré ici</text>
+  </svg>
+  <table>
+    <tr><th>Règle</th><th>Assurance</th></tr>
+    <tr><td>CFR · CPT</td><td>Aucune obligation</td></tr>
+    <tr><td>CIF</td><td>Vendeur, ICC (C) minimum, 110 %</td></tr>
+    <tr><td>CIP</td><td>Vendeur, ICC (A), 110 %</td></tr>
+  </table>
+  <p class="note">Risque ≠ propriété. Toujours écrire : « CFR Port-Louis, Incoterms® 2020 ».</p>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">8/16</span></div>
+</section>
+
+<!-- 9. MBL / HBL -->
+<section class="slide">
+  <div class="kicker">Documents</div>
+  <h2>Le B/L : un reçu, un contrat… et un titre.</h2>
+  <svg width="912" height="570" viewBox="0 0 912 570">
+    <rect x="80" y="250" width="760" height="300" rx="30" fill="#0B2545"/>
+    <text x="120" y="340" font-size="30" font-weight="800" fill="#F28C28">MASTER B/L</text>
+    <text x="120" y="380" font-size="25" fill="#C9D8E6">Émis par la compagnie maritime</text>
+    <text x="120" y="450" font-size="26" fill="#fff">Shipper : agent d'origine</text>
+    <text x="120" y="495" font-size="26" fill="#fff">Consignee : agent de destination</text>
+    <rect x="30" y="20" width="760" height="260" rx="30" fill="#E8F1F6" stroke="#13678A" stroke-width="4"/>
+    <text x="70" y="80" font-size="30" font-weight="800" fill="#13678A">HOUSE B/L</text>
+    <text x="70" y="125" font-size="25" fill="#5B6B7B">Émis par le transitaire (NVOCC)</text>
+    <text x="70" y="195" font-size="26" fill="#0B2545" font-weight="600">Shipper : l'expéditeur réel</text>
+    <text x="70" y="240" font-size="26" fill="#0B2545" font-weight="600">Consignee : le destinataire réel</text>
+  </svg>
+  <div class="box"><p style="font-size:30px;line-height:1.4"><b>Sea Waybill</b> : pas d'original, livraison directe au destinataire, mais <b>plus de levier de paiement</b> pour le vendeur.<br><b class="orange">Choisir un document, c'est choisir un risque.</b></p></div>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">9/16</span></div>
+</section>
+
+<!-- 10. SWITCH B/L -->
+<section class="slide">
+  <div class="kicker">Confidentialité</div>
+  <h2>Switch B/L : la ligne rouge</h2>
+  <div class="card" style="background:#E7F6EF"><h3 class="green">✓ Peut changer, si c'est exact et accepté</h3><p>Shipper · Consignee · Notify<br>(ex. le négociant remplace l'usine comme chargeur)</p></div>
+  <div style="height:12px;background:var(--red);border-radius:6px;margin:34px 0"></div>
+  <div class="card" style="background:#FBEAEA"><h3 class="red">✗ Ne change jamais</h3><p>Description · quantité · poids · <b>origine</b> · port et date de chargement · état de la marchandise</p></div>
+  <div class="box navy" style="margin-top:34px"><p style="font:700 34px/1.35 Montserrat,sans-serif">Il change <span class="orange">QUI</span> apparaît. Jamais <span class="orange">CE QUI</span> est transporté, ni <span class="orange">D'OÙ</span> ça vient.</p><p style="font-size:25px;color:#C9D8E6;margin-top:12px">Contre restitution de tous les originaux · contrôle sanctions sur toutes les parties.</p></div>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">10/16</span></div>
+</section>
+
+<!-- 11. MARGE -->
+<section class="slide">
+  <div class="kicker">Rentabilité</div>
+  <h2>Sur 3 300 USD facturés, combien garde le transitaire&nbsp;?</h2>
+  <svg width="912" height="470" viewBox="0 0 912 470">
+    <rect x="0" y="40" width="680" height="120" rx="16" fill="#0B2545"/>
+    <rect x="680" y="40" width="97" height="120" fill="#13678A"/>
+    <rect x="777" y="40" width="112" height="120" rx="16" fill="#F28C28"/>
+    <rect x="777" y="40" width="20" height="120" fill="#F28C28"/>
+    <text x="30" y="112" font-size="30" font-weight="800" fill="#fff">Compagnie maritime : 2 530</text>
+    <g font-size="26" font-weight="700">
+      <line x1="728" y1="170" x2="728" y2="230" stroke="#13678A" stroke-width="3"/><text x="728" y="265" text-anchor="middle" fill="#13678A">Agent : 362</text>
+      <line x1="833" y1="170" x2="833" y2="310" stroke="#F28C28" stroke-width="3"/><text x="890" y="345" text-anchor="end" fill="#F28C28">Marge : 408</text>
+    </g>
+    <text x="0" y="440" font-size="64" font-weight="800" fill="#F28C28" font-family="Montserrat">408 USD</text>
+    <text x="330" y="420" font-size="27" fill="#5B6B7B">marge brute · taux de marque 12,36 %</text>
+    <text x="330" y="455" font-size="27" fill="#5B6B7B">≈ 318 USD après le temps passé</text>
+  </svg>
+  <div class="box orange"><p class="big" style="font-size:38px">Une surcharge de 400 USD oubliée dans l'offre ?<br><span class="red">Dossier à perte.</span> Les clauses protègent la marge.</p></div>
+  <p class="note">Chiffres fictifs et pédagogiques (1×40'HC Shanghai → Port-Louis, CFR).</p>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">11/16</span></div>
+</section>
+
+<!-- 12. PRIX VS DÉLAI -->
+<section class="slide">
+  <div class="kicker">Décision</div>
+  <h2>2 900 USD en 24 jours<br>ou 2 650 USD en 37 jours&nbsp;?</h2>
+  <svg width="912" height="420" viewBox="0 0 912 420">
+    <line x1="456" y1="60" x2="456" y2="360" stroke="#0B2545" stroke-width="10"/>
+    <path d="M396,380 L516,380 L456,330z" fill="#0B2545"/>
+    <line x1="130" y1="110" x2="782" y2="110" stroke="#0B2545" stroke-width="8"/>
+    <line x1="170" y1="110" x2="130" y2="230" stroke="#5B6B7B" stroke-width="3"/><line x1="170" y1="110" x2="210" y2="230" stroke="#5B6B7B" stroke-width="3"/>
+    <line x1="742" y1="110" x2="702" y2="230" stroke="#5B6B7B" stroke-width="3"/><line x1="742" y1="110" x2="782" y2="230" stroke="#5B6B7B" stroke-width="3"/>
+    <rect x="40" y="230" width="260" height="120" rx="20" fill="#E7F6EF"/><text x="170" y="285" text-anchor="middle" font-size="36" font-weight="800" fill="#2E9E6B">− 250 USD</text><text x="170" y="325" text-anchor="middle" font-size="23" fill="#5B6B7B">de fret</text>
+    <rect x="612" y="230" width="260" height="120" rx="20" fill="#FBEAEA"/><text x="742" y="285" text-anchor="middle" font-size="36" font-weight="800" fill="#D64545">+ 242 USD</text><text x="742" y="325" text-anchor="middle" font-size="23" fill="#5B6B7B">13 jours de stock</text>
+  </svg>
+  <p class="lead">85 000 USD × 8 % × 13 / 365 = 242 USD d'argent immobilisé.<br><b style="color:var(--navy)">Économie réelle : ≈ 8 USD.</b> Sans compter la fiabilité et les ruptures de stock.</p>
+  <div class="box navy"><p style="font:700 36px Montserrat,sans-serif">On ne vend pas un prix. <span class="orange">On vend une décision.</span></p></div>
+  <p class="note">Hypothèses pédagogiques : valeur 85 000 USD, coût du capital 8 %/an.</p>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">12/16</span></div>
+</section>
+
+<!-- 13. LA RÉUNION -->
+<section class="slide">
+  <div class="kicker">Douane &amp; fiscalité</div>
+  <h2>La Réunion : dedans pour la douane, dehors pour la TVA européenne</h2>
+  <svg width="912" height="560" viewBox="0 0 912 560">
+    <rect x="20" y="20" width="872" height="520" rx="40" fill="#E8F1F6"/>
+    <text x="60" y="78" font-size="28" font-weight="800" fill="#13678A">Territoire douanier de l'UE</text>
+    <rect x="60" y="110" width="380" height="300" rx="30" fill="#fff" stroke="#13678A" stroke-width="4"/>
+    <text x="90" y="160" font-size="26" font-weight="800" fill="#0B2545">Territoire TVA de l'UE</text>
+    <text x="90" y="230" font-size="28" font-weight="600" fill="#0B2545">France</text><text x="90" y="268" font-size="28" font-weight="600" fill="#0B2545">métropolitaine</text>
+    <rect x="480" y="110" width="372" height="300" rx="30" fill="#FFF1E3" stroke="#F28C28" stroke-width="4"/>
+    <text x="510" y="170" font-size="32" font-weight="800" fill="#F28C28">La Réunion</text>
+    <text x="510" y="215" font-size="24" fill="#0B2545">TVA DOM 8,5 % / 2,1 %</text>
+    <text x="510" y="252" font-size="24" fill="#0B2545">+ octroi de mer</text>
+    <text x="510" y="320" font-size="32" font-weight="800" fill="#F28C28">Mayotte</text>
+    <text x="510" y="362" font-size="24" fill="#0B2545">octroi de mer · pas de TVA</text>
+    <text x="60" y="490" font-size="26" fill="#5B6B7B">Hors du cadre : Maurice, Madagascar, Comores = pays tiers</text>
+  </svg>
+  <p class="lead" style="font-size:29px">Chine → Réunion = import dans l'UE (droits TARIC, octroi de mer, TVA DOM).<br>Métropole → Réunion = pas de droits, mais des formalités fiscales.</p>
+  <p class="note">Règles vérifiées en novembre 2026 (douane.gouv.fr, impots.gouv.fr) : à revérifier à chaque opération.</p>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">13/16</span></div>
+</section>
+
+<!-- 14. ICS2 -->
+<section class="slide">
+  <div class="kicker">Conformité</div>
+  <h2>ICS2 : la douane européenne lit votre dossier avant le chargement</h2>
+  <ul class="clean">
+    <li>Déclaration ENS : au plus tard <b>24 h avant le chargement</b> (conteneur, long cours)</li>
+    <li>Maritime : compagnies depuis le <b>3 juin 2024</b>, transitaires (house filers) <b>déc. 2024 → avril 2025</b></li>
+    <li>Concerné : Chine → <b>La Réunion</b>. Pas Chine → Maurice.</li>
+    <li>Sanctions UE : elles s'appliquent à une entreprise réunionnaise <b>même hors UE</b></li>
+  </ul>
+  <div class="grid2" style="margin-top:34px">
+    <div class="card" style="background:#FBEAEA"><div class="tag" style="color:var(--red)">REFUSÉ</div><p style="font:700 30px/1.3 Inter;margin-top:10px">« GOODS AS PER INVOICE »</p></div>
+    <div class="card" style="background:#E7F6EF"><div class="tag" style="color:var(--green)">ACCEPTÉ</div><p style="font:700 28px/1.3 Inter;margin-top:10px">« UPHOLSTERED SOFAS WITH WOODEN FRAME » + code SH à 6 chiffres</p></div>
+  </div>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">14/16</span></div>
+</section>
+
+<!-- 15. PAYOFF -->
+<section class="slide dark">
+  <div class="kicker">À retenir</div>
+  <h2>3 questions à se poser sur chaque dossier</h2>
+  <div class="q"><div class="n">1</div><p>Où est l'organisateur&nbsp;?<span>C'est ce qui dit si c'est du Cross-Trade… et quelles règles s'appliquent.</span></p></div>
+  <div class="q"><div class="n">2</div><p>Quel Incoterm, quel document&nbsp;?<span>C'est ce qui dit qui porte le risque et qui contrôle la marchandise.</span></p></div>
+  <div class="q"><div class="n">3</div><p>Le client l'a-t-il appris par moi&nbsp;?<span>C'est ce qui dit si vous le garderez.</span></p></div>
+  <div class="bar"></div>
+  <p class="lead">Un conteneur ne parle pas. C'est vous qui le faites parler.</p>
+  <div class="footer"><span><b>Masterclass Cross-Trade</b></span><span class="num">15/16</span></div>
+</section>
+
+<!-- 16. CTA -->
+<section class="slide dark">
+  <div class="kicker">Pour aller plus loin</div>
+  <h1 style="font-size:72px">Enregistrez ce carrousel<br><span class="orange">pour votre prochain dossier.</span></h1>
+  <div class="bar"></div>
+  <p class="lead" style="color:#fff">Le support complet de ma Masterclass est dans la section <b class="orange">Sélection</b> de mon profil :</p>
+  <ul class="clean" style="color:#fff;margin-top:20px;font-size:30px">
+    <li style="border-color:#24426A">19 modules : groupage, assurance, paiement, fiches pays…</li>
+    <li style="border-color:#24426A">3 études de cas : Maurice, La Réunion, Madagascar</li>
+    <li style="border-color:#24426A">Exercices corrigés et étude de cas notée sur 20</li>
+    <li style="border-color:#24426A">Fiche de révision et glossaire FR-EN de 40 termes</li>
+  </ul>
+  <p class="note" style="margin-top:36px">Entreprises et chiffres fictifs, à visée pédagogique. Travail personnel : opinions personnelles, pas celles de mon employeur.</p>
+  <div class="footer"><span>Masterclass animée par <b>Houzaifah Rassolmian</b></span><span class="num">16/16</span></div>
+</section>
+
+</body>
+</html>
