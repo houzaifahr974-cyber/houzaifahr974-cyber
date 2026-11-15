@@ -1,4 +1,4 @@
-# LIVRABLE A — COURS COMPLET (Partie 2 : Modules 6 à 10)
+# COURS COMPLET (Partie 2 : Modules 6 à 10)
 
 ⬅️ [Partie 1 — Modules 1 à 5](A1-cours-modules-1-a-5.md)
 
@@ -272,7 +272,7 @@ Chaque incident est traité selon : **Situation → Cause → Conséquences → 
 
 # MODULE 8 — DOUANE, FISCALITÉ ET CONFORMITÉ
 
-> ⚖️ Ce module présente des **principes**. La réglementation évolue : chaque point doit être vérifié sur les sources officielles listées au Livrable G, à la date de l'opération. Les situations varient selon le pays, le produit et le régime douanier retenu.
+> ⚖️ Ce module présente des **principes**. La réglementation évolue : chaque point doit être vérifié sur les sources officielles listées dans la partie Ressources, à la date de l'opération. Les situations varient selon le pays, le produit et le régime douanier retenu.
 
 ## 8.1 🎣 Accroche — « Made in where? »
 

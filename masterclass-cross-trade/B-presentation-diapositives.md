@@ -1,4 +1,4 @@
-# LIVRABLE B — PRÉSENTATION (47 diapositives) avec notes du professeur
+# PRÉSENTATION (47 diapositives) avec notes du professeur
 
 > **Direction artistique :** bleu marine `#0B2545` (fonds titres), bleu océan `#13678A` (schémas), blanc, accents orange `#F28C28` (chiffres clés, alertes). Typographie sans empattement (ex. Montserrat / Inter). Photos : navires porte-conteneurs, portiques de terminaux, cartes maritimes (banques d'images libres de droits ; vérifier la licence). **Règle : 6 lignes maximum par diapositive** ; tout le détail est dans les notes.
 >
@@ -14,6 +14,7 @@
 - Masterclass Cross-Trade International
 - Asie · Océan Indien · Monde
 - Comprendre · Organiser · Sécuriser · Développer
+- Masterclass animée par Houzaifah Rassolmian
 **Visuel recommandé :** Photo plein écran d'un porte-conteneurs au large, de nuit, avec trois points lumineux sur une carte en surimpression (Shanghai, Le Port, Port-Louis).
 **Notes du professeur :** Accueillir, annoncer la durée (2 h 30 à 3 h) et le principe : les étudiants travaillent au service Cross-Trade d'un transitaire fictif, Lagon Bleu Transit, au Port. Toutes les données sont fictives. Annoncer le code couleur : vérifié / hypothèse / obligation légale / pratique commerciale.
 **Explication orale :** « Pendant les trois prochaines heures, vous n'êtes plus étudiants. Vous êtes coordinateurs Cross-Trade. Et votre premier dossier arrive dans cinq minutes. »
@@ -421,7 +422,7 @@
 - Octroi de mer + octroi de mer régional
 - Mayotte : octroi de mer, TVA non applicable
 **Visuel recommandé :** Trois cercles concentriques (UE / territoire douanier / territoire TVA) avec La Réunion et Mayotte placées dans le bon espace.
-**Notes du professeur :** Présenter le tableau comparatif et le calcul des taxes du Cas 2 (taux d'octroi de mer hypothétiques). Signaler la recodification TVA dans le CIBS. Renvoyer au Livrable G pour les sources.
+**Notes du professeur :** Présenter le tableau comparatif et le calcul des taxes du Cas 2 (taux d'octroi de mer hypothétiques). Signaler la recodification TVA dans le CIBS. Renvoyer dans la partie Ressources pour les sources.
 **Explication orale :** « La Réunion est en Europe pour la douane, mais pas pour la TVA européenne. Retenez cette phrase : elle vous évitera bien des erreurs de facturation. »
 **Exemple concret :** 32 310 € de valeur en douane → 6 953,11 € de taxes (hypothèses).
 **Transition :** « Depuis 2024, un nouveau contrôle s'applique même avant le départ du navire : ICS2. »
@@ -603,7 +604,7 @@
 - Le Switch B/L peut-il modifier l'origine ?
 - Fiche de révision · Glossaire · Cas · Exercices
 **Visuel recommandé :** Trois grandes cartes-questions, puis un QR code vers les ressources du cours.
-**Notes du professeur :** Réponses : non (importation) ; à bord au port d'embarquement ; jamais. Distribuer la fiche de révision (Livrable E), le glossaire (F) et annoncer l'étude de cas finale notée sur 20 (Livrable D).
+**Notes du professeur :** Réponses : non (importation) ; à bord au port d'embarquement ; jamais. Distribuer la fiche de révision et le glossaire, et annoncer l'étude de cas finale notée sur 20.
 **Explication orale :** « Si vous avez répondu juste aux trois, vous en savez déjà plus que beaucoup de gens qui travaillent dans ce métier depuis un an. »
 **Exemple concret :** Étude de cas finale « Océan Indien Négoce ».
 **Transition :** « Merci. Votre prochain dossier commence lundi, 7 h 03. »

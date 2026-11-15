@@ -1,11 +1,11 @@
-# LIVRABLE A — COURS COMPLET (Partie 1 : Modules 1 à 5 bis)
+# COURS COMPLET (Partie 1 : Modules 1 à 5 bis)
 
 # 🚢 « UN CONTENEUR, TROIS PAYS, UNE SEULE OPÉRATION »
 ## Masterclass Cross-Trade International — Comprendre, organiser, sécuriser et développer les opérations maritimes entre l'Asie, l'océan Indien et le monde
 
-> **Avertissement pédagogique.** Toutes les entreprises, personnes, navires, numéros de documents, tarifs et montants de ce cours sont **fictifs** et construits à des fins pédagogiques. Toute ressemblance avec une entreprise réelle est fortuite. Les tarifs ne reflètent pas le marché à une date donnée. Les règles juridiques citées sont identifiées comme telles, avec leur source et leur date de vérification dans le Livrable G. Code couleur utilisé dans tout le cours :
+> **Avertissement pédagogique.** Toutes les entreprises, personnes, navires, numéros de documents, tarifs et montants de ce cours sont **fictifs** et construits à des fins pédagogiques. Toute ressemblance avec une entreprise réelle est fortuite. Les tarifs ne reflètent pas le marché à une date donnée. Les règles juridiques citées sont identifiées comme telles, avec leur source et leur date de vérification dans la partie Ressources. Code couleur utilisé dans tout le cours :
 >
-> - ✅ **Fait vérifié** : règle ou fait sourcé (voir Livrable G).
+> - ✅ **Fait vérifié** : règle ou fait sourcé (voir la partie Ressources).
 > - 🧪 **Hypothèse / donnée pédagogique** : chiffre ou situation inventés pour l'exercice.
 > - ⚖️ **Obligation légale** vs 🤝 **Pratique commerciale** : on les distingue systématiquement.
 
@@ -54,7 +54,7 @@ Le **fil rouge** de toute la séance est un dossier fictif ouvert au premier jou
 
 ## 🎬 SCÉNARIO D'OUVERTURE — « 250 000 € qui ne touchent jamais le sol français »
 
-*(Le professeur éteint la lumière, projette une carte : Foshan, Marseille, Antananarivo. Trois points. Aucune flèche.)*
+*(Mise en scène : éteindre la lumière, projeter une carte : Foshan, Marseille, Antananarivo. Trois points. Aucune flèche.)*
 
 > « Lundi, 8 h 12. Claire, directrice commerciale d'**Hexa Négoce SAS**, une PME de Marseille, signe une commande de **250 000 €** avec **Tana Équipement SARL**, un distributeur d'Antananarivo, à Madagascar : 3 conteneurs de luminaires LED professionnels.
 >
@@ -433,7 +433,7 @@ Il n'y a pas « un » cut-off mais plusieurs :
 ### ÉTAPE 16 — Préalerte de destination
 - **Quoi :** envoyer à l'agent de destination (et au client) : copie B/L, facture, packing list, navire/ETA, numéros de conteneur et scellé, instructions de livraison, conditions de libération (*release*).
 - **Délais :** dès l'émission du B/L, au plus tard **plusieurs jours avant l'arrivée** (🤝 standard interne : J+2 après départ).
-- **Anticipation :** gabarit de préalerte normalisé (voir Livrable C).
+- **Anticipation :** gabarit de préalerte normalisé (voir les études de cas).
 
 ### ÉTAPE 17 — Formalités et dédouanement selon le schéma retenu
 - En **CFR Port-Louis**, le dédouanement import à Maurice est à la charge de l'acheteur mauricien, qui mandate son propre déclarant ou l'agent de LBT.

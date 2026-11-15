@@ -1,4 +1,4 @@
-# LIVRABLE E — FICHE DE RÉVISION (2 pages)
+# FICHE DE RÉVISION (2 pages)
 
 ## 1. Les 5 notions à ne pas confondre
 

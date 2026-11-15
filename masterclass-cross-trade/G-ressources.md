@@ -1,4 +1,4 @@
-# LIVRABLE G — RESSOURCES ET BIBLIOGRAPHIE
+# RESSOURCES ET BIBLIOGRAPHIE
 
 > **Règle d'usage :** les références ci-dessous sont des sources institutionnelles ou des textes officiels réels. Les liens et versions ont été vérifiés pour la dernière fois le **15 novembre 2026** ; les réglementations évoluent — **toujours consulter la version en vigueur** à la date de l'opération. Aucune statistique de marché n'est présentée comme réelle dans ce cours : tous les chiffres opérationnels sont pédagogiques (🧪).
 

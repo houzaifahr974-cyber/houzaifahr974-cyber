@@ -1,13 +1,15 @@
 # 🚢 Masterclass Cross-Trade International
 ### « Un conteneur, trois pays, une seule opération »
 
+**Masterclass conçue et animée par Houzaifah Rassolmian**, Sales & Freight Forwarding Coordinator, Cross-Trade (La Réunion).
+
 Un cours de niveau Master (accessible aux débutants) sur le **Cross-Trade**, le **commerce triangulaire** et la **coordination maritime FCL** entre l'Asie, l'océan Indien et le reste du monde, vu depuis un transitaire installé à La Réunion.
 
-> 🧪 **Toutes les entreprises, personnes, numéros de documents, tarifs et montants sont fictifs et pédagogiques.** Aucune donnée d'entreprise réelle n'est utilisée. Les règles juridiques citées sont sourcées dans le Livrable G (vérification : novembre 2026) et doivent être revérifiées à la date de chaque opération.
+> 🧪 **Toutes les entreprises, personnes, numéros de documents, tarifs et montants sont fictifs et pédagogiques.** Aucune donnée d'entreprise réelle n'est utilisée. Les règles juridiques citées sont sourcées dans la partie Ressources (vérification : novembre 2026) et doivent être revérifiées à la date de chaque opération.
 
 ## 📦 Contenu
 
-| Livrable | Fichier | Contenu |
+| Partie | Fichier | Contenu |
 |----------|---------|---------|
 | **A — Cours complet** | [A1 — Modules 1 à 5 bis](A1-cours-modules-1-a-5.md) · [A2 — Modules 6 à 10](A2-cours-modules-6-a-10.md) · [A3 — Modules 11 à 18](A3-cours-modules-11-a-18.md) | Titre, objectifs, déroulé, scénario d'ouverture, 19 modules (dont 5 bis et les approfondissements : groupage, assurance et avaries, conteneurs spéciaux, paiement, géographie, environnement, fiches pays, éthique), conclusion |
 | **B — Présentation** | [Diapositives + notes](B-presentation-diapositives.md) · [Masterclass-Cross-Trade.pptx](Masterclass-Cross-Trade.pptx) | 47 diapositives : titre, message, contenu, visuel, notes, oral, exemple, transition |

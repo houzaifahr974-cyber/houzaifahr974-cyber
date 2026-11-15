@@ -1,4 +1,4 @@
-# LIVRABLE F — GLOSSAIRE PROFESSIONNEL FRANÇAIS – ANGLAIS (40 termes essentiels + 20 termes complémentaires)
+# GLOSSAIRE PROFESSIONNEL FRANÇAIS – ANGLAIS (40 termes essentiels + 20 termes complémentaires)
 
 | # | Français | English | Définition |
 |---|----------|---------|------------|

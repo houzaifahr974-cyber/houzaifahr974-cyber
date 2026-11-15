@@ -13,7 +13,7 @@ trap 'rm -rf "$TMP" "$SRC/mermaid.min.js" "$SRC/cours.html"' EXIT
 # Concaténation des livrables, sans les liens de navigation entre fichiers
 for f in A1-cours-modules-1-a-5.md A2-cours-modules-6-a-10.md A3-cours-modules-11-a-18.md C-etudes-de-cas.md \
          D-exercices-corriges.md E-fiche-revision.md F-glossaire.md G-ressources.md; do
-  grep -vE '^(➡️|⬅️) |^# LIVRABLE A — COURS COMPLET' "$f"
+  grep -vE '^(➡️|⬅️) |^# COURS COMPLET \(Partie' "$f"
   printf '\n\n'
 done > "$TMP/cours.md"
 
@@ -24,7 +24,7 @@ cat > "$TMP/avant.html" <<'HTML'
   <div class="barre"></div>
   <p>Masterclass Cross-Trade International : comprendre, organiser, sécuriser et développer les opérations maritimes entre l'Asie, l'océan Indien et le monde.</p>
   <p>Cours complet · 3 études de cas · exercices corrigés · fiche de révision · glossaire FR-EN · ressources</p>
-  <div class="bas"><b>Houzaifah Rassolmian</b> · Sales &amp; Freight Forwarding Coordinator, Cross-Trade · La Réunion<br>
+  <div class="bas">Masterclass conçue et animée par <b>Houzaifah Rassolmian</b> · Sales &amp; Freight Forwarding Coordinator, Cross-Trade · La Réunion<br>
   Entreprises, personnes et chiffres fictifs, à visée pédagogique. Règles vérifiées en novembre 2026, à revérifier à chaque opération.
   Travail personnel : opinions personnelles, pas celles de mon employeur.</div>
 </section>

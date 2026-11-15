@@ -10,25 +10,30 @@
 | `Masterclass-Cross-Trade.pptx` (dossier parent) | Pour présenter le cours en classe (pas pour LinkedIn) |
 
 > ⚠️ **À savoir sur le profil LinkedIn :**
-> - La section **« Cours »** n'accepte qu'un **nom**, un **numéro** facultatif et une expérience ou formation associée. On ne peut **pas** y joindre de fichier ni de texte long.
-> - Pour que les gens puissent **lire** le cours, il faut l'ajouter dans la section **« Sélection »** (*Featured*). Elle accepte un PDF avec un titre et une description.
-> - **Recommandation :** les deux. Le cours dans « Cours » (crédibilité) et dans « Sélection » (consultation), plus le carrousel en post (visibilité).
+> - La section **« Cours »** n'accepte qu'un **nom**, un **numéro** facultatif et une expérience ou formation associée. On ne peut **pas** y joindre de fichier ni de texte long. LinkedIn l'a d'abord prévue pour les cours suivis : pour montrer que **vous donnez** ce cours, associez-le à une expérience de formateur et complétez avec les sections ci-dessous.
+> - Pour que les gens puissent **lire** le cours, ajoutez-le dans la section **« Sélection »** (*Featured*). Elle accepte un PDF avec un titre et une description.
+> - **Recommandation :** « Cours » + une expérience **« Formateur / Intervenant »** + « Sélection », plus le carrousel en post (visibilité).
 
 ---
 
 ## 1️⃣ Section « Cours » (Profil → Ajouter une section → Recommandé → Ajouter des cours)
 
-- **Nom du cours :** Masterclass Cross-Trade International : transit maritime Asie – océan Indien (conception)
+- **Nom du cours :** Masterclass Cross-Trade International : transit maritime Asie – océan Indien (formateur)
 - **Numéro du cours :** *(laisser vide, ou « MCT-01 »)*
-- **Associé à :** votre formation (Master/Bachelor) si le cours a été réalisé dans ce cadre. Sinon, ne rien associer.
+- **Associé à :** l'expérience « Formateur — Masterclass Cross-Trade International » (à créer ci-dessous).
 
-> Si ce cours est un travail que vous avez **conçu** (et non suivi), la section **« Projets »** est encore plus juste. Elle accepte une description et un lien. Texte prêt à coller ci-dessous.
+**Section « Expérience » — poste de formateur :**
+- **Intitulé du poste :** Formateur — Masterclass Cross-Trade International
+- **Type d'emploi :** Indépendant *(ou le type qui correspond à votre situation)*
+- **Lieu :** La Réunion
+- **Description :**
+  Je conçois et j'anime une Masterclass sur le Cross-Trade et le transit maritime entre l'Asie et l'océan Indien, vu depuis La Réunion, pour des étudiants de Bachelor et de Master en commerce international et supply chain : 19 modules, 47 diapositives, 3 études de cas (Maurice, La Réunion, Madagascar), exercices corrigés, simulations de crise et étude de cas notée sur 20. Thèmes : Incoterms® 2020, documents (B/L, Switch B/L, VGM), cotation et marge, groupage, assurance et avarie commune, paiement international, douane, ICS2, octroi de mer, sanctions, éthique.
+- **Compétences :** Formation · Transit international · Fret maritime · Incoterms · Commerce international
 
 **Section « Projets » (facultatif) :**
-- **Nom :** Masterclass Cross-Trade International — conception pédagogique
+- **Nom :** Masterclass Cross-Trade International
 - **Description :**
-  Conception d'un cours complet sur le Cross-Trade et le transit maritime entre l'Asie et l'océan Indien, vu depuis La Réunion : 19 modules (dont les points de vue client, fournisseur, trader et transitaire, le rôle de l'agent local dans la confidentialité, le groupage, l'assurance et l'avarie commune, les conteneurs spéciaux, le paiement international, la géographie maritime, l'environnement, des fiches pays et l'éthique), 47 diapositives avec notes, 3 études de cas (Maurice, La Réunion, Madagascar), exercices corrigés, fiche de révision, glossaire FR-EN et sources officielles. Thèmes : Incoterms® 2020, documents (B/L, Switch B/L, VGM), cotation et marge, gestion de crise, douane, ICS2, octroi de mer, sanctions. Entreprises et chiffres fictifs, à visée pédagogique.
-- **Compétences :** Transit international · Fret maritime · Incoterms · Commerce international · Formation
+  Masterclass que j'ai conçue et que j'anime sur le Cross-Trade et le transit maritime entre l'Asie et l'océan Indien, vu depuis La Réunion : 19 modules (dont les points de vue client, fournisseur, trader et transitaire, le rôle de l'agent local dans la confidentialité, le groupage, l'assurance et l'avarie commune, les conteneurs spéciaux, le paiement international, la géographie maritime, l'environnement, des fiches pays et l'éthique), 47 diapositives, 3 études de cas, exercices corrigés, fiche de révision, glossaire FR-EN et sources officielles. Entreprises et chiffres fictifs, à visée pédagogique.
 
 ---
 
@@ -38,7 +43,7 @@
 - **Titre (≤ 100 caractères) :**
   `Masterclass Cross-Trade : un conteneur, trois pays, une seule opération`
 - **Description :**
-  Cours complet (106 pages) sur le Cross-Trade et le transit maritime Asie – océan Indien : 19 modules, 3 études de cas, exercices corrigés, fiche de révision et glossaire FR-EN. Données fictives à visée pédagogique.
+  Le support complet (106 pages) de la Masterclass que j'anime sur le Cross-Trade et le transit maritime Asie – océan Indien : 19 modules, 3 études de cas, exercices corrigés, fiche de révision et glossaire FR-EN. Données fictives à visée pédagogique.
 
 *(Ajouter aussi le carrousel en Sélection une fois publié : « … » sur le post → « Mettre en sélection ».)*
 
@@ -67,10 +72,10 @@ La différence change tout :
 → octroi de mer et TVA DOM, ou rien
 → un client local en euros, ou un client étranger en dollars
 
-J'ai rassemblé tout ce que j'aurais aimé comprendre plus tôt dans une Masterclass : flux, Incoterms®, B/L et Switch B/L, cotation et marge, gestion de crise, conformité.
+C'est la première question que je pose dans la Masterclass que j'anime sur le Cross-Trade. Ensuite : flux, Incoterms®, B/L et Switch B/L, cotation et marge, gestion de crise, conformité.
 
 Le carrousel ci-dessous en donne l'essentiel en 16 slides.
-Le cours complet (106 pages, cas pratiques et exercices corrigés) est dans la section Sélection de mon profil.
+Le support complet du cours (106 pages, cas pratiques et exercices corrigés) est dans la section Sélection de mon profil.
 
 Question pour les transitaires de l'océan Indien : dans votre entreprise, le « service Cross-Trade » gère-t-il aussi les imports ?
 
@@ -82,20 +87,20 @@ Question pour les transitaires de l'océan Indien : dans votre entreprise, le «
 ```
 Sur un conteneur facturé 3 300 dollars, combien garde le transitaire ?
 
-Dans l'exemple de ma Masterclass : 408 dollars de marge brute.
+Dans l'exemple que je fais calculer à mes étudiants : 408 dollars de marge brute.
 Environ 318 une fois le temps de travail déduit.
 
 Et une seule surcharge de 400 dollars oubliée dans l'offre suffit à mettre le dossier à perte.
 
 C'est pour ça que, dans ce métier, une clause bien écrite vaut parfois plus qu'une négociation gagnée.
 
-J'ai construit un cours complet sur le Cross-Trade et le transit maritime Asie – océan Indien, pensé pour qu'un débutant comprenne et qu'un professionnel y trouve des cas concrets :
+C'est l'un des exercices de la Masterclass que j'anime sur le Cross-Trade et le transit maritime Asie – océan Indien, pensée pour qu'un débutant comprenne et qu'un professionnel y trouve des cas concrets :
 • les 20 étapes d'un dossier, du premier e-mail à la clôture
 • Incoterms®, B/L, Switch B/L : ce qui est permis et ce qui ne l'est jamais
 • 3 études de cas : Maurice, La Réunion, Madagascar
 • douane, ICS2, octroi de mer, sanctions
 
-L'essentiel est dans le carrousel. Le cours complet est dans la section Sélection de mon profil.
+L'essentiel est dans le carrousel. Le support complet du cours est dans la section Sélection de mon profil.
 (Entreprises et chiffres fictifs, à visée pédagogique.)
 
 Étudiants en commerce international : quelle notion du transit vous a semblé la plus floue en cours ?
@@ -108,9 +113,9 @@ L'essentiel est dans le carrousel. Le cours complet est dans la section Sélecti
 ```
 Un conteneur. Trois pays. Une seule opération.
 
-J'ai publié dans la section Sélection de mon profil une Masterclass complète sur le Cross-Trade et le transit maritime entre l'Asie et l'océan Indien : 19 modules, 3 études de cas, exercices corrigés et glossaire FR-EN.
+J'ai publié dans la section Sélection de mon profil le support de la Masterclass que j'anime sur le Cross-Trade et le transit maritime entre l'Asie et l'océan Indien : 19 modules, 3 études de cas, exercices corrigés et glossaire FR-EN.
 
-Elle est gratuite, en français, et les données sont fictives : vous pouvez l'utiliser en cours ou en formation.
+Il est en accès libre, en français, et toutes les données sont fictives.
 
 Quel sujet aimeriez-vous voir traité dans un prochain module ?
 
@@ -121,7 +126,7 @@ Quel sujet aimeriez-vous voir traité dans un prochain module ?
 
 ### Premier commentaire (à publier vous-même juste après le post)
 ```
-Pour ceux qui veulent aller plus loin : le cours complet en PDF (106 pages) est en haut de mon profil, section « Sélection ». Il contient les 3 études de cas corrigées et une étude de cas finale notée sur 20.
+Pour ceux qui veulent aller plus loin : le support complet de la Masterclass en PDF (106 pages) est en haut de mon profil, section « Sélection ». Il contient les 3 études de cas corrigées et une étude de cas finale notée sur 20.
 ```
 
 ### Bonnes pratiques de publication

@@ -1,8 +1,8 @@
-# LIVRABLE A — COURS COMPLET (Partie 3 : Modules 11 à 18 — approfondissements)
+# COURS COMPLET (Partie 3 : Modules 11 à 18 — approfondissements)
 
 ⬅️ [Partie 2 — Modules 6 à 10](A2-cours-modules-6-a-10.md)
 
-> 🧪 Rappel : entreprises, tarifs et montants **fictifs et pédagogiques**. Hypothèses de change : **1 USD = 0,92 EUR** ; **1 DTS (droit de tirage spécial) = 1,35 USD** 🧪 (la valeur réelle du DTS est publiée chaque jour par le FMI). Les règles citées ont été vérifiées en novembre 2026 ; elles évoluent : revérifier à chaque opération (sources au Livrable G).
+> 🧪 Rappel : entreprises, tarifs et montants **fictifs et pédagogiques**. Hypothèses de change : **1 USD = 0,92 EUR** ; **1 DTS (droit de tirage spécial) = 1,35 USD** 🧪 (la valeur réelle du DTS est publiée chaque jour par le FMI). Les règles citées ont été vérifiées en novembre 2026 ; elles évoluent : revérifier à chaque opération (sources dans la partie Ressources).
 
 # 🔭 APPROFONDISSEMENTS — MODULES 11 À 18
 
@@ -595,7 +595,7 @@ Un client veut envoyer 1×20' de matériaux de Ningbo à Moroni « le plus vite 
 ---
 # 🎓 CONCLUSION — « Ce que le conteneur ne dit pas »
 
-> *(Le professeur reprend la carte du début : Foshan, Marseille, Antananarivo. Puis Shanghai, Le Port, Port-Louis.)*
+> *(Mise en scène : reprendre la carte du début : Foshan, Marseille, Antananarivo. Puis Shanghai, Le Port, Port-Louis.)*
 >
 > « Il y a deux heures, ces points étaient isolés. Maintenant, vous voyez trois fils : un fil d'acier — le conteneur ; un fil de papier — les documents ; un fil d'or — l'argent. Le Cross-Trade, c'est l'art de tenir ces trois fils **depuis un quatrième point** de la carte, que la marchandise ne touchera jamais.
 >

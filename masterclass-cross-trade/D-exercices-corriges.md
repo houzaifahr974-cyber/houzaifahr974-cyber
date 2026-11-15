@@ -1,4 +1,4 @@
-# LIVRABLE D — EXERCICES ET CORRIGÉS
+# EXERCICES ET CORRIGÉS
 
 > 🧪 Données fictives et pédagogiques. Hypothèse de change : 1 USD = 0,92 EUR.
 
@@ -177,7 +177,7 @@ La date d'expédition (14/05) respecte la date limite. **Leçon :** le transitai
 ### Simulation 1 — Jeu de rôle « La cotation en 30 minutes »
 **Rôles :** A transitaire LBT · B importateur (Kaz Design) · C agent chinois · D compagnie maritime.
 **Brief :** B demande une cotation 1×40'HC Yantian → Port Réunion, livraison avant J+35. C dispose de deux offres de D : (1) 2 900 USD, 24 jours ; (2) 2 650 USD, 37 jours. D a annoncé une PSS de 300 USD applicable dans 3 semaines.
-**Livrable :** A présente une offre écrite à B.
+**Production attendue :** A présente une offre écrite à B.
 **Grille de correction :** qualification complète (10 questions) ; comparaison coût-délai-fiabilité ; **mention de la PSS** à venir et clause de surcharge ; free time annoncé ; exclusions écrites ; validité. Bonus : calcul du coût du temps (cf. Module 6).
 
 ### Simulation 2 — Crise « Bloqué au transbordement »

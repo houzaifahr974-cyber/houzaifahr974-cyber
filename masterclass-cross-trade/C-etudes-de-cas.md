@@ -1,8 +1,8 @@
-# LIVRABLE C — TROIS ÉTUDES DE CAS IMMERSIVES
+# TROIS ÉTUDES DE CAS IMMERSIVES
 
-> 🧪 **Toutes les données sont fictives et pédagogiques** (entreprises, personnes, navires, numéros, tarifs, montants). Hypothèse de change : **1 USD = 0,92 EUR**. Les règles juridiques citées sont des principes à vérifier sur les sources du Livrable G.
+> 🧪 **Toutes les données sont fictives et pédagogiques** (entreprises, personnes, navires, numéros, tarifs, montants). Hypothèse de change : **1 USD = 0,92 EUR**. Les règles juridiques citées sont des principes à vérifier sur les sources de la partie Ressources.
 
-**Mode d'emploi pour l'enseignant :** chaque cas se joue en groupes de 3 à 5 étudiants. Distribuer d'abord l'histoire, la carte, les acteurs et les données (30 min de travail), puis les trois problèmes un par un (« injects » de crise toutes les 10 minutes). Le corrigé est distribué après la restitution.
+**Déroulé en séance :** chaque cas se joue en groupes de 3 à 5 étudiants. Distribuer d'abord l'histoire, la carte, les acteurs et les données (30 min de travail), puis les trois problèmes un par un (« injects » de crise toutes les 10 minutes). Le corrigé est distribué après la restitution.
 
 ---
 
