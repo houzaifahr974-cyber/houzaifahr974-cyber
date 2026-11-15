@@ -79,7 +79,7 @@ a) c'est autorisé car la marchandise ne touche pas l'UE · b) seule la compagni
 
 ---
 
-## PARTIE 3 — 5 EXERCICES PRATIQUES
+## PARTIE 3 — 6 EXERCICES PRATIQUES
 
 ### Exercice 1 — Qualifier l'opération (15 min)
 Pour chaque cas, indiquez : (1) Cross-Trade strict ? (2) commerce triangulaire ? (3) qui dédouane à destination ?
@@ -123,6 +123,17 @@ a) Calculez le coût total. b) Le prix de vente cible. c) La marge brute. d) Le 
 Franchise 7 jours, puis 75 EUR/jour (jours 8-14), puis 150 EUR/jour. Le client peut dédouaner au jour 9 s'il paie les taxes par virement urgent (frais bancaires 35 EUR), ou au jour 15 par virement ordinaire. Que conseillez-vous ?
 
 **Corrigé :** Jour 9 : 2 × 75 = 150 + 35 = **185 EUR**. Jour 15 : 7 × 75 + 1 × 150 = **675 EUR**. → Virement urgent : économie de **490 EUR**.
+
+### Exercice 6 — Quatre points de vue et agent local (20 min)
+Hexa Négoce (trader, Marseille) achète FOB Nansha à Brightway (Foshan) et revend CIF Toamasina à Tana Équipement. Transit Phocéen organise le transport avec un agent à Guangzhou et un agent à Toamasina.
+a) Pour chacun des quatre acteurs (client, fournisseur, trader, transitaire), donnez son objectif principal et sa peur principale.
+b) Répartissez les documents suivants entre le « paquet A » (fournisseur ↔ trader) et le « paquet B » (trader → client) : facture usine, facture Hexa, liste de colisage usine, liste de colisage neutre, HBL, copie MBL, certificat d'origine, certificat d'assurance.
+c) Citez trois mesures concrètes que l'agent d'origine applique pour préserver la confidentialité, et une limite de cette confidentialité.
+
+**Corrigé :**
+a) Client : recevoir conforme et à temps au coût prévu / frais surprises, retard, payer sans recevoir. Fournisseur : être payé vite / impayé. Trader : marge et position d'intermédiaire / court-circuit, change, documents non conformes. Transitaire : dossier sans incident et rentable / erreur documentaire, impayé, agent défaillant.
+b) Paquet A : facture usine, liste de colisage usine, copie MBL. Paquet B : facture Hexa, liste de colisage neutre, HBL (shipper Hexa), certificat d'origine, certificat d'assurance.
+c) Références de dossier neutres avec le fournisseur ; aucun document commercial dans le conteneur et marquage neutre ; MBL entre agents ; deux listes de diffusion séparées ; clause de non-contournement. Limite : le certificat d'origine (origine, souvent exportateur) et les autorités (douane, banques, sanctions) doivent connaître les vraies parties.
 
 ---
 

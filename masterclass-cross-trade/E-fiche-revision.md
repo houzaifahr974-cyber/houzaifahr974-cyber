@@ -44,6 +44,12 @@
 - **VGM** : SOLAS VI/2, depuis le 01/07/2016 — sans VGM, pas de chargement.
 - **Shipper** (chargeur) · **Consignee** (destinataire) · **Notify** (avisé, sans droit).
 
+## 5 bis. Quatre points de vue + agent local
+- **Client** : coût rendu et délai · **Fournisseur** : être payé · **Trader** : marge, ne pas être court-circuité · **Transitaire** : dossier sans incident, son **donneur d'ordre** d'abord.
+- Le transitaire informe **son** client, qui informe **le sien**.
+- **Agent local** = présence, langue, agréments locaux, relations compagnies… et **écran de confidentialité** : MBL entre agents, HBL au nom du trader, **deux paquets documentaires** séparés, références et marquage neutres, clause de non-contournement.
+- Limites : certificat d'origine, douane, banques, sanctions → les vraies parties restent connues des autorités.
+
 ## 6. Cotation — formules
 - Marge brute = Vente − Achat
 - **Taux de marge** = Marge ÷ **Achat** · **Taux de marque** = Marge ÷ **Vente**

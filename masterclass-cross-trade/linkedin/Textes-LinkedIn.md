@@ -5,7 +5,7 @@
 | Fichier | Où l'utiliser |
 |---|---|
 | `Carrousel-LinkedIn-Masterclass-Cross-Trade.pdf` (16 slides, 1080×1350) | **Post** : publication « Document » (carrousel) |
-| `Masterclass-Cross-Trade-Cours-complet.pdf` (73 pages A4) | Section **Sélection** du profil (média) |
+| `Masterclass-Cross-Trade-Cours-complet.pdf` (79 pages A4) | Section **Sélection** du profil (média) |
 | `Visuel-Selection-1200x627.png` | Vignette de la Sélection, ou image d'un lien |
 | `Masterclass-Cross-Trade.pptx` (dossier parent) | Pour présenter le cours en classe (pas pour LinkedIn) |
 
@@ -27,7 +27,7 @@
 **Section « Projets » (facultatif) :**
 - **Nom :** Masterclass Cross-Trade International — conception pédagogique
 - **Description :**
-  Conception d'un cours complet sur le Cross-Trade et le transit maritime entre l'Asie et l'océan Indien, vu depuis La Réunion : 10 modules, 36 diapositives avec notes, 3 études de cas (Maurice, La Réunion, Madagascar), exercices corrigés, fiche de révision, glossaire FR-EN et sources officielles. Thèmes : Incoterms® 2020, documents (B/L, Switch B/L, VGM), cotation et marge, gestion de crise, douane, ICS2, octroi de mer, sanctions. Entreprises et chiffres fictifs, à visée pédagogique.
+  Conception d'un cours complet sur le Cross-Trade et le transit maritime entre l'Asie et l'océan Indien, vu depuis La Réunion : 11 modules (dont les points de vue client, fournisseur, trader et transitaire, et le rôle de l'agent local dans la confidentialité), 38 diapositives avec notes, 3 études de cas (Maurice, La Réunion, Madagascar), exercices corrigés, fiche de révision, glossaire FR-EN et sources officielles. Thèmes : Incoterms® 2020, documents (B/L, Switch B/L, VGM), cotation et marge, gestion de crise, douane, ICS2, octroi de mer, sanctions. Entreprises et chiffres fictifs, à visée pédagogique.
 - **Compétences :** Transit international · Fret maritime · Incoterms · Commerce international · Formation
 
 ---
@@ -38,7 +38,7 @@
 - **Titre (≤ 100 caractères) :**
   `Masterclass Cross-Trade : un conteneur, trois pays, une seule opération`
 - **Description :**
-  Cours complet (73 pages) sur le Cross-Trade et le transit maritime Asie – océan Indien : 10 modules, 3 études de cas, exercices corrigés, fiche de révision et glossaire FR-EN. Données fictives à visée pédagogique.
+  Cours complet (79 pages) sur le Cross-Trade et le transit maritime Asie – océan Indien : 10 modules, 3 études de cas, exercices corrigés, fiche de révision et glossaire FR-EN. Données fictives à visée pédagogique.
 
 *(Ajouter aussi le carrousel en Sélection une fois publié : « … » sur le post → « Mettre en sélection ».)*
 
@@ -70,7 +70,7 @@ La différence change tout :
 J'ai rassemblé tout ce que j'aurais aimé comprendre plus tôt dans une Masterclass : flux, Incoterms®, B/L et Switch B/L, cotation et marge, gestion de crise, conformité.
 
 Le carrousel ci-dessous en donne l'essentiel en 16 slides.
-Le cours complet (73 pages, cas pratiques et exercices corrigés) est dans la section Sélection de mon profil.
+Le cours complet (79 pages, cas pratiques et exercices corrigés) est dans la section Sélection de mon profil.
 
 Question pour les transitaires de l'océan Indien : dans votre entreprise, le « service Cross-Trade » gère-t-il aussi les imports ?
 
@@ -121,7 +121,7 @@ Quel sujet aimeriez-vous voir traité dans un prochain module ?
 
 ### Premier commentaire (à publier vous-même juste après le post)
 ```
-Pour ceux qui veulent aller plus loin : le cours complet en PDF (73 pages) est en haut de mon profil, section « Sélection ». Il contient les 3 études de cas corrigées et une étude de cas finale notée sur 20.
+Pour ceux qui veulent aller plus loin : le cours complet en PDF (79 pages) est en haut de mon profil, section « Sélection ». Il contient les 3 études de cas corrigées et une étude de cas finale notée sur 20.
 ```
 
 ### Bonnes pratiques de publication

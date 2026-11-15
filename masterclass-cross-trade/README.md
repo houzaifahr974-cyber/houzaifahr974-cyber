@@ -10,7 +10,7 @@ Un cours de niveau Master (accessible aux débutants) sur le **Cross-Trade**, le
 | Livrable | Fichier | Contenu |
 |----------|---------|---------|
 | **A — Cours complet** | [A1 — Modules 1 à 5](A1-cours-modules-1-a-5.md) · [A2 — Modules 6 à 10](A2-cours-modules-6-a-10.md) | Titre, objectifs, déroulé, scénario d'ouverture, 10 modules, conclusion |
-| **B — Présentation** | [Diapositives + notes](B-presentation-diapositives.md) · [Masterclass-Cross-Trade.pptx](Masterclass-Cross-Trade.pptx) | 36 diapositives : titre, message, contenu, visuel, notes, oral, exemple, transition |
+| **B — Présentation** | [Diapositives + notes](B-presentation-diapositives.md) · [Masterclass-Cross-Trade.pptx](Masterclass-Cross-Trade.pptx) | 38 diapositives : titre, message, contenu, visuel, notes, oral, exemple, transition |
 | **C — Études de cas** | [3 cas immersifs](C-etudes-de-cas.md) | Cross-Trade Shanghai → Port-Louis · Import Yantian → Port Réunion · Négoce Chine → Madagascar |
 | **D — Exercices** | [Exercices corrigés](D-exercices-corriges.md) | 10 questions, 10 QCM, 5 exercices, 3 simulations, 1 étude de cas notée sur 20 |
 | **E — Fiche de révision** | [Fiche](E-fiche-revision.md) | Synthèse de 2 pages |
@@ -38,7 +38,7 @@ Ensuite, importer le `.pptx` dans PowerPoint ou Canva et remplacer les emplaceme
 |---|---|
 | [Textes-LinkedIn.md](linkedin/Textes-LinkedIn.md) | Textes prêts à coller : section Cours, Projets, Sélection, 3 versions du post, premier commentaire, check-list |
 | `Carrousel-LinkedIn-Masterclass-Cross-Trade.pdf` | Carrousel de 16 slides (1080×1350) pour un post « Document » |
-| `Masterclass-Cross-Trade-Cours-complet.pdf` | Cours complet mis en page (A4, 73 pages, schémas inclus) pour la section Sélection |
+| `Masterclass-Cross-Trade-Cours-complet.pdf` | Cours complet mis en page (A4, 79 pages, schémas inclus) pour la section Sélection |
 | `Visuel-Selection-1200x627.png` | Vignette pour la section Sélection |
 
 Régénération : `node outils/rendre_pdf.js linkedin/sources/carrousel.html linkedin/Carrousel-LinkedIn-Masterclass-Cross-Trade.pdf carrousel` et `MERMAID_JS=…/mermaid.min.js outils/construire_cours_pdf.sh` (nécessitent Playwright, pandoc et le paquet npm `mermaid`).

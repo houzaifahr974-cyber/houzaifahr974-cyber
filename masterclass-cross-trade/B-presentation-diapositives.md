@@ -1,4 +1,4 @@
-# LIVRABLE B — PRÉSENTATION (36 diapositives) avec notes du professeur
+# LIVRABLE B — PRÉSENTATION (38 diapositives) avec notes du professeur
 
 > **Direction artistique :** bleu marine `#0B2545` (fonds titres), bleu océan `#13678A` (schémas), blanc, accents orange `#F28C28` (chiffres clés, alertes). Typographie sans empattement (ex. Montserrat / Inter). Photos : navires porte-conteneurs, portiques de terminaux, cartes maritimes (banques d'images libres de droits ; vérifier la licence). **Règle : 6 lignes maximum par diapositive** ; tout le détail est dans les notes.
 >
@@ -271,9 +271,35 @@
 **Notes du professeur :** Présenter d'abord les outils légitimes (Incoterms donnant le contrôle du transport, HBL, documents neutres, clauses de non-contournement), puis le Switch B/L, ses risques (double jeu, fraude, discordances, responsabilité) et les obligations de conformité. L'émetteur n'a aucune obligation d'accepter.
 **Explication orale :** « Changer le nom de l'expéditeur, c'est parfois de la discrétion. Changer le port de chargement, c'est toujours un mensonge. »
 **Exemple concret :** Cas 3, problème 3 : Brightway propose un faux port de chargement → refus.
+**Transition :** « Mais derrière ces documents, il y a des personnes. Et chacune voit l'opération à sa manière. »
+
+## Diapo 22 — Une opération, quatre regards
+**Message essentiel :** Client, fournisseur, trader et transitaire regardent le même conteneur avec des inquiétudes différentes.
+**Contenu visible :**
+- Client : « Quand, et combien en plus ? »
+- Fournisseur : « Quand suis-je payé ? »
+- Trader : « Ma marge et ma place sont-elles protégées ? »
+- Transitaire : « Le B/L est-il juste, et qui est mon donneur d'ordre ? »
+**Visuel recommandé :** Un conteneur au centre, quatre personnages aux quatre coins, chacun avec une bulle de pensée.
+**Notes du professeur :** Présenter le tableau des quatre points de vue (objectif, peur, ce qu'il voit et ne doit pas voir, levier, Incoterm préféré, indicateur). Insister sur le principe du donneur d'ordre : le transitaire informe son client, qui informe le sien. Montrer le même incident (roll-over) vu par les quatre et la matrice « qui voit quoi ».
+**Explication orale :** « Si vous ne savez pas pour qui vous travaillez, vous finirez par donner la bonne information à la mauvaise personne. »
+**Exemple concret :** Brightway appelle pour connaître le client final malgache : la réponse est non, et Hexa en est informé.
+**Transition :** « Pour garder chaque fenêtre fermée à ceux qui n'ont pas à y regarder, le transitaire s'appuie sur un allié : l'agent local. »
+
+## Diapo 23 — L'agent local : facilitateur et gardien de la confidentialité
+**Message essentiel :** L'agent local ouvre les portes du terrain et sert d'écran entre fournisseur et client.
+**Contenu visible :**
+- Présence à l'usine, langue, relations avec les compagnies
+- MBL entre agents, HBL au nom du trader
+- Deux paquets documentaires qui ne se croisent jamais
+- Clause de non-contournement · limites : origine, douane, banques
+**Visuel recommandé :** Schéma en deux colonnes : paquet A (fournisseur ↔ trader) et paquet B (trader → client), reliés par le MBL entre agent d'origine et agent de destination.
+**Notes du professeur :** Détailler les 7 mesures (paquets séparés, MBL entre agents, HBL propre, références neutres, marquage neutre sans documents dans le conteneur, libération maîtrisée, contrat d'agence). Être honnête sur les limites : le certificat d'origine, les autorités et l'agent lui-même connaissent les vraies parties. Lancer le jeu de rôle « Le coup de téléphone ».
+**Explication orale :** « L'agent est une serrure : il laisse passer la marchandise et garde les clés de l'information. »
+**Exemple concret :** L'agent de Guangzhou parle à Brightway avec un simple numéro de dossier ; l'agent de Toamasina ne remet le bon à enlever qu'au porteur du HBL.
 **Transition :** « Parlons argent. Comment un transitaire gagne-t-il sa vie ? »
 
-## Diapo 22 — Comment un transitaire gagne-t-il de l'argent ?
+## Diapo 24 — Comment un transitaire gagne-t-il de l'argent ?
 **Message essentiel :** Sur 3 300 USD facturés, la marge brute est de 408 USD.
 **Contenu visible :**
 - Vente 3 300 USD · Achat 2 892 USD 🧪
@@ -286,7 +312,7 @@
 **Exemple concret :** Cotation Q-0001 détaillée (Module 6).
 **Transition :** « Construisons cette cotation ligne par ligne. »
 
-## Diapo 23 — Anatomie d'une cotation 40'HC
+## Diapo 25 — Anatomie d'une cotation 40'HC
 **Message essentiel :** Coûts complets + marge assumée + clauses protectrices.
 **Contenu visible :**
 - O/F 2 150 → 2 450 · BAF 380 → 380
@@ -299,7 +325,7 @@
 **Exemple concret :** Offre Q-0001 telle qu'envoyée à Valdor.
 **Transition :** « Que se passe-t-il quand la réalité diverge du devis ? »
 
-## Diapo 24 — Quatre scénarios, une leçon
+## Diapo 26 — Quatre scénarios, une leçon
 **Message essentiel :** Une clause bien écrite peut valoir plus qu'une négociation gagnée.
 **Contenu visible :**
 - Compétitive : marge 258 USD
@@ -312,7 +338,7 @@
 **Exemple concret :** PSS de 400 USD annoncée après l'offre.
 **Transition :** « Et quand vous devez choisir entre prix et délai ? »
 
-## Diapo 25 — 2 900 USD en 24 jours ou 2 650 USD en 37 jours ?
+## Diapo 27 — 2 900 USD en 24 jours ou 2 650 USD en 37 jours ?
 **Message essentiel :** On ne vend pas un prix, on vend une décision éclairée.
 **Contenu visible :**
 - Économie : 250 USD
@@ -325,7 +351,7 @@
 **Exemple concret :** Mobilier pour un salon : l'option rapide s'impose.
 **Transition :** « Mais l'argent ne se gagne pas qu'au devis : il se garde grâce au réseau d'agents. »
 
-## Diapo 26 — Négocier avec les agents étrangers
+## Diapo 28 — Négocier avec les agents étrangers
 **Message essentiel :** Le meilleur tarif vient de la confiance et de la réciprocité, pas de la pression.
 **Contenu visible :**
 - Volume réaliste · Grille identique · Réciprocité
@@ -337,7 +363,7 @@
 **Exemple concret :** Profit share 50/50 sur les frais de destination à Maurice (40 USD par dossier).
 **Transition :** « Tout va bien… jusqu'au jour où rien ne va. »
 
-## Diapo 27 — Quand 12 jours de retard deviennent un problème à 20 000 €
+## Diapo 29 — Quand 12 jours de retard deviennent un problème à 20 000 €
 **Message essentiel :** Juridiquement protégé ne veut pas dire commercialement en sécurité.
 **Contenu visible :**
 - Situation → Cause → Conséquences
@@ -349,7 +375,7 @@
 **Exemple concret :** Jouets arrivés après Noël : manque à gagner estimé 20 000 € par le client 🧪.
 **Transition :** « Simulation : vous êtes de garde. »
 
-## Diapo 28 — Simulation de crise : bloqué au transbordement
+## Diapo 30 — Simulation de crise : bloqué au transbordement
 **Message essentiel :** Décider, agir, informer — en moins de 20 minutes.
 **Contenu visible :**
 - Conteneur au hub depuis 9 jours
@@ -361,7 +387,7 @@
 **Exemple concret :** Modèles d'e-mails FR (client) et EN (agent) du Module 7.
 **Transition :** « Parmi les coûts de crise, deux mots reviennent toujours : demurrage et detention. »
 
-## Diapo 29 — Demurrage & Detention : le compteur tourne
+## Diapo 31 — Demurrage & Detention : le compteur tourne
 **Message essentiel :** Chaque jour de retard documentaire ou financier a un prix.
 **Contenu visible :**
 - Demurrage : plein, au terminal
@@ -374,7 +400,7 @@
 **Exemple concret :** Kaz Design : libération au jour 10 → 225 €.
 **Transition :** « Certains blocages ne sont pas logistiques, mais réglementaires. »
 
-## Diapo 30 — Made in where ? Origine, provenance, valeur
+## Diapo 32 — Made in where ? Origine, provenance, valeur
 **Message essentiel :** L'origine ne voyage pas avec le navire : elle naît à l'usine.
 **Contenu visible :**
 - Origine ≠ Provenance
@@ -387,7 +413,7 @@
 **Exemple concret :** Simulation 3 : notify suspect et demande de Switch B/L avec autre port.
 **Transition :** « Et La Réunion, dans tout ça ? Un territoire à part. »
 
-## Diapo 31 — La Réunion : dedans pour la douane, dehors pour la TVA européenne
+## Diapo 33 — La Réunion : dedans pour la douane, dehors pour la TVA européenne
 **Message essentiel :** UE ≠ territoire douanier ≠ territoire TVA.
 **Contenu visible :**
 - Territoire douanier de l'UE ✅
@@ -400,7 +426,7 @@
 **Exemple concret :** 32 310 € de valeur en douane → 6 953,11 € de taxes (hypothèses).
 **Transition :** « Depuis 2024, un nouveau contrôle s'applique même avant le départ du navire : ICS2. »
 
-## Diapo 32 — ICS2 : la douane européenne monte à bord avant vous
+## Diapo 34 — ICS2 : la douane européenne monte à bord avant vous
 **Message essentiel :** Pour entrer dans l'UE (dont La Réunion), les données doivent être complètes avant le chargement.
 **Contenu visible :**
 - ENS : au plus tard 24 h avant chargement (conteneur deep sea)
@@ -413,7 +439,7 @@
 **Exemple concret :** « GOODS AS PER INVOICE » → refus ; « UPHOLSTERED SOFAS WITH WOODEN FRAME, HS 9401.61 » → accepté.
 **Transition :** « Maîtriser tout cela, c'est un avantage concurrentiel. Construisons la stratégie. »
 
-## Diapo 33 — Cross-Trade : opportunité commerciale ou casse-tête logistique ?
+## Diapo 35 — Cross-Trade : opportunité commerciale ou casse-tête logistique ?
 **Message essentiel :** Les deux — et c'est précisément ce qui crée de la valeur.
 **Contenu visible :**
 - Forces : océan Indien, francophonie, UTC+4
@@ -426,7 +452,7 @@
 **Exemple concret :** Un transitaire réunionnais devient l'expert océan Indien de ses agents chinois.
 **Transition :** « Et demain ? Que deviennent ces métiers avec l'IA ? »
 
-## Diapo 34 — Digitalisation et IA : automatiser le répétitif, garder le jugement
+## Diapo 36 — Digitalisation et IA : automatiser le répétitif, garder le jugement
 **Message essentiel :** L'automatisation prépare, l'humain décide et engage.
 **Contenu visible :**
 - ✅ TMS, suivi, tableaux de bord, relances
@@ -439,7 +465,7 @@
 **Exemple concret :** Pré-rédaction d'une demande de précisions sur une RFQ incomplète, validée par le coordinateur.
 **Transition :** « Il est temps de rassembler les fils. »
 
-## Diapo 35 — Ce que le conteneur ne dit pas
+## Diapo 37 — Ce que le conteneur ne dit pas
 **Message essentiel :** Trois fils, un quatrième point sur la carte.
 **Contenu visible :**
 - 🔩 Le fil d'acier : le conteneur
@@ -452,7 +478,7 @@
 **Exemple concret :** Retour sur Hexa : triangulaire pour Hexa, Cross-Trade pour son transitaire.
 **Transition :** « Dernière épreuve : trois questions, trente secondes. »
 
-## Diapo 36 — Quiz éclair et ressources
+## Diapo 38 — Quiz éclair et ressources
 **Message essentiel :** Vérifier les trois idées essentielles avant de partir.
 **Contenu visible :**
 - Chine → Réunion piloté depuis la Réunion : Cross-Trade ?

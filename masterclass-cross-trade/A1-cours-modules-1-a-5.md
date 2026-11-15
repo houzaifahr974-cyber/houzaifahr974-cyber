@@ -1,4 +1,4 @@
-# LIVRABLE A — COURS COMPLET (Partie 1 : Modules 1 à 5)
+# LIVRABLE A — COURS COMPLET (Partie 1 : Modules 1 à 5 bis)
 
 # 🚢 « UN CONTENEUR, TROIS PAYS, UNE SEULE OPÉRATION »
 ## Masterclass Cross-Trade International — Comprendre, organiser, sécuriser et développer les opérations maritimes entre l'Asie, l'océan Indien et le monde
@@ -26,6 +26,7 @@
 | 7 | **Gérer** une situation de crise (retard, roll-over, B/L erroné, D&D) et rédiger la communication | Créer | Simulations 2 et 3 |
 | 8 | **Identifier** les points de conformité (origine, valeur, sanctions, ICS2, statut fiscal de La Réunion) | Évaluer | Étude de cas finale |
 | 9 | **Proposer** un modèle de développement Cross-Trade rentable pour un transitaire réunionnais | Créer | Étude de cas finale |
+| 10 | **Adopter** le point de vue du client, du fournisseur, du trader et du transitaire, et **organiser** la confidentialité avec un agent local | Analyser | Jeu de rôle 5B.5, exercice 6 |
 
 ---
 
@@ -39,7 +40,8 @@
 | M3 | Les 20 étapes d'un dossier | 25 min | 15 min |
 | ☕ Pause | — | 10 min | 5 min |
 | M4 | Incoterms® 2020 | 15 min | 10 min |
-| M5 | Documents (B/L, Switch B/L…) | 20 min | 12 min |
+| M5 | Documents (B/L, Switch B/L…) | 15 min | 10 min |
+| M5 bis | Quatre points de vue (client, fournisseur, trader, transitaire) et agent local | 15 min | 8 min |
 | M6 | Cotation et rentabilité | 20 min | 15 min |
 | M7 | Simulation de crise | 20 min | 12 min |
 | M8 | Douane, fiscalité, conformité | 12 min | 8 min |
@@ -694,6 +696,135 @@ flowchart TB
 **Exercice éclair :** la facture commerciale annonce 410 cartons et 7 900 kg. Que faites-vous ? → **Stop** : on bloque la validation du draft, on demande au shipper la packing list définitive et on aligne **les trois documents** (facture, packing list, B/L) avant le SI cut-off. Une discordance = risque de blocage en douane et de refus bancaire.
 
 > 🧠 **À retenir du Module 5 :** *Facture, liste de colisage et B/L forment un triangle : si un côté ne colle pas aux deux autres, tout le dossier s'effondre — à la banque, à la douane ou au terminal.*
+
+---
+
+# MODULE 5 BIS — UNE OPÉRATION, QUATRE REGARDS : CLIENT, FOURNISSEUR, TRADER, TRANSITAIRE… ET L'AGENT LOCAL QUI PROTÈGE LA CONFIDENTIALITÉ
+
+## 5B.1 🎣 Accroche — « Quatre téléphones, un seul conteneur »
+
+> Jeudi, 9 h. Le conteneur d'Hexa Négoce vient d'être chargé à Nansha. Quatre personnes regardent leur téléphone au même moment.
+>
+> - **Tana Équipement (le client, Antananarivo)** se demande : *« Quand est-ce que j'aurai mes luminaires, et combien vais-je payer en plus à l'arrivée ? »*
+> - **Brightway (le fournisseur, Foshan)** se demande : *« Quand est-ce que je touche mes 70 % ? »*
+> - **Hexa Négoce (le trader, Marseille)** se demande : *« Mes documents sont-ils conformes au crédit documentaire, et personne n'a-t-il vu mon prix d'achat ? »*
+> - **Transit Phocéen (le transitaire)** se demande : *« Le B/L est-il juste, l'agent de Toamasina a-t-il la préalerte, et serai-je payé ? »*
+>
+> **Même conteneur. Quatre inquiétudes différentes.** Un bon professionnel du Cross-Trade sait se mettre à la place de chacun… sans jamais confondre pour qui il travaille.
+
+## 5B.2 📖 Les quatre points de vue, côte à côte
+
+| | 🏬 **Client** (acheteur final) | 🏭 **Fournisseur** (fabricant) | 🏢 **Trader** (négociant intermédiaire) | 🚢 **Transitaire** (organisateur du transport) |
+|---|---|---|---|---|
+| **Objectif principal** | Recevoir une marchandise conforme, à temps, au coût total prévu (*landed cost* : prix + transport + droits + frais) | Être payé vite et en totalité, vider son stock | Encaisser sa marge et **rester indispensable** entre les deux | Un dossier sans incident, une marge juste, un client qui revient |
+| **Peur principale** | Retard, frais surprises à destination, marchandise non conforme, payer sans recevoir | Impayé, réserves sur les documents, pénalités de retard | **Être court-circuité** (fournisseur et client qui traitent en direct), risque de change, documents non conformes | Erreur documentaire qui engage sa responsabilité, impayé, agent défaillant, problème de conformité |
+| **Ce qu'il doit voir** | ETA, B/L, facture **du trader**, certificats, coûts de destination | Booking confirmé, date de chargement, copie du B/L (preuve d'expédition) | **Tout** : les deux contrats, les deux factures, tous les documents | Toutes les informations nécessaires au transport et à la conformité (identité réelle de toutes les parties) |
+| **Ce qu'il ne doit pas voir** (en négoce) | Prix d'achat du trader, identité du fabricant (si convenu) | Identité du client final, prix de revente | — | — *(mais il ne doit rien divulguer d'une partie à l'autre)* |
+| **Son levier de pouvoir** | Le paiement (crédit documentaire, documents contre paiement) | La marchandise et les originaux, jusqu'au paiement | Le contrôle du transport et des documents | La maîtrise opérationnelle, l'émission du HBL, le réseau d'agents |
+| **Incoterm qu'il préfère** | CIF / CIP / DAP s'il veut de la simplicité ; FOB / FCA s'il a son propre réseau | EXW / FCA / FOB (le moins de responsabilité possible) | **Achat FOB/FCA + vente CFR/CIF/CPT/CIP** : il contrôle le transport dans les deux sens | Celui qui fait de **son client** le payeur du fret principal |
+| **Son indicateur** | Coût de revient rendu, délai réel | Délai d'encaissement (DSO) | Marge nette après change et financement | Marge par dossier, fiabilité, délai d'encaissement |
+
+### 🧠 La question qui tranche tout : « Qui est mon donneur d'ordre ? »
+- Le transitaire **travaille pour celui qui lui a confié le dossier** (son donneur d'ordre) et **livre la marchandise à celui qui présente le bon document** (B/L original, ou consignee d'une Sea Waybill).
+- Dans le Cas 3, le donneur d'ordre de Transit Phocéen est **Hexa**, pas Brightway, ni Tana. Si Brightway appelle pour obtenir le nom du client final, ou si Tana demande le prix du fret payé par Hexa, la réponse est la même : **« Cette information relève de notre client ; nous ne pouvons pas la communiquer. »**
+- ⚖️/🤝 Cette discrétion repose sur le **contrat** (clause de confidentialité), les **conditions générales** du transitaire et le **secret des affaires** (en France, loi n° 2018-670 du 30 juillet 2018). Elle **ne s'applique pas** aux autorités (douane, enquêtes, sanctions) quand la loi impose de communiquer.
+
+## 5B.3 🏭 Illustration — Le même incident vu par les quatre
+
+**Incident :** le conteneur est roulé de 7 jours à Nansha.
+
+| Acteur | Ce qu'il ressent | Ce dont il a besoin | Ce que le transitaire lui dit (ou pas) |
+|--------|------------------|---------------------|-----------------------------------------|
+| Client (Tana) | Inquiétude sur la date et les frais | Une nouvelle ETA fiable | **Rien directement** : c'est **Hexa** qui informe son client (avec l'aide d'un texte préparé par le transitaire) |
+| Fournisseur (Brightway) | Peur que son solde de 70 % soit retardé | Savoir quand la copie du B/L « on board » sera disponible | L'agent d'origine l'informe de la nouvelle date de chargement, **sans mentionner** le client ni la destination finale au-delà du nécessaire |
+| Trader (Hexa) | Risque sur la date limite d'expédition du crédit | Une alerte immédiate et un plan | **Tout**, en premier, avec les options (amendement du crédit, autre navire) |
+| Transitaire | Risque d'image, temps passé | Une confirmation écrite de la compagnie | Il coordonne : compagnie → agent → Hexa |
+
+> 🧠 *En négoce, le transitaire informe **son client**, qui informe **le sien**. Court-circuiter cette chaîne, c'est exposer le trader et perdre sa confiance.*
+
+### La matrice d'information (qui voit quoi ?) — Cas 3
+
+| Information | Fournisseur | Trader | Client final | Agent origine | Agent destination | Compagnie |
+|-------------|:-----------:|:------:|:------------:|:-------------:|:-----------------:|:---------:|
+| Prix d'achat (facture usine) | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Prix de vente (facture trader) | ❌ | ✅ | ✅ | ❌ | 🔶 si nécessaire au dédouanement local | ❌ |
+| Identité du fabricant | ✅ | ✅ | 🔶 limitée (le certificat d'origine peut la révéler) | ✅ | 🔶 | ✅ (MBL ou booking) |
+| Identité du client final | ❌ | ✅ | ✅ | 🔶 port et agent de destination seulement | ✅ | 🔶 selon le MBL |
+| Prix du fret | ❌ (FOB) | ✅ | ❌ | ✅ (son prix) | ❌ | ✅ |
+| ETA / suivi | 🔶 jusqu'au départ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Identité réelle de **toutes** les parties (conformité) | — | ✅ | — | ✅ | ✅ | selon ses règles |
+
+✅ = voit · ❌ = ne doit pas voir · 🔶 = partiel ou selon les besoins de l'opération
+
+⚠️ **Confidentialité commerciale ≠ opacité réglementaire.** Les parties peuvent ignorer l'identité de l'une ou l'autre ; **le transitaire et ses agents, eux, doivent connaître les vraies parties** (filtrage sanctions, ICS2 si l'UE est concernée, déclarations en douane).
+
+## 5B.4 🌏 L'agent local étranger : facilitateur… et gardien de la confidentialité
+
+### Pourquoi passer par un agent local ?
+
+| Apport | Exemple concret |
+|--------|-----------------|
+| **Présence physique** | Il peut aller à l'usine de Foshan vérifier l'empotage, photographier le conteneur, récupérer les documents |
+| **Langue, culture, fuseau horaire** | Il parle au fournisseur en chinois, à ses heures, selon les usages locaux |
+| **Relations avec les bureaux locaux des compagnies** | Il obtient l'espace en haute saison, des franchises, des corrections de B/L rapides |
+| **Agréments et licences locaux** | Les activités de transitaire, de déclarant en douane ou d'émetteur de B/L (NVOCC) supposent souvent un **enregistrement local** : les règles varient selon les pays et doivent être vérifiées |
+| **Paiements en devise locale** | Il règle les frais de terminal en devise locale et refacture en USD |
+| **Dédouanement à destination** | À Toamasina ou Port-Louis, il connaît les déclarants, les délais et les pièces exigées localement |
+| **Écran de confidentialité** | Le fournisseur ne parle qu'à l'agent ; le client final ne parle qu'à l'agent de destination |
+
+### Comment l'agent protège la confidentialité, étape par étape
+
+```mermaid
+flowchart TB
+    BW["🏭 Fournisseur — Brightway (Chine)"]
+    HX["🏢 Trader — Hexa (France)"]
+    AO["🧭 Agent d'origine (Guangzhou)"]
+    AD["🧭 Agent de destination (Toamasina)"]
+    TA["🏬 Client final — Tana Équipement (Madagascar)"]
+    BW -- "📄 PAQUET A : facture usine + liste de colisage usine" --> HX
+    BW -- "📦 marchandise + données d'expédition" --> AO
+    AO -- "🚢 MBL : agent d'origine → agent de destination" --> AD
+    HX -- "📄 PAQUET B : facture Hexa + liste de colisage neutre<br/>+ HBL (shipper : Hexa) + certificat d'origine + assurance" --> TA
+    AD -- "✅ bon à enlever contre HBL" --> TA
+```
+
+1. **Deux paquets documentaires séparés.** *Paquet A* (fournisseur ↔ trader) : facture et liste de colisage de l'usine, copie du MBL. *Paquet B* (trader → client) : facture du trader, liste de colisage neutre, HBL avec le trader comme shipper, certificat d'origine, certificat d'assurance. Les deux paquets ne se croisent **jamais**.
+2. **Un MBL entre agents.** Sur le connaissement de la compagnie, shipper = agent d'origine, consignee = agent de destination. Ni le fournisseur ni le client final n'y figurent comme parties principales.
+3. **Un HBL « propre ».** Le transitaire (NVOCC) émet un HBL : shipper = Hexa, consignee = « to order of » la banque du client, notify = Tana.
+4. **Des références neutres.** L'agent d'origine parle au fournisseur avec un numéro de dossier, sans citer le client final ; il ne transmet que le port de destination nécessaire au booking.
+5. **Un marquage neutre.** Colis sans nom du fabricant (sauf marquage obligatoire, par exemple l'étiquetage réglementaire du produit, qui doit être respecté) ; **aucun document commercial dans le conteneur**.
+6. **Une libération maîtrisée.** L'agent de destination ne remet le bon à enlever qu'au porteur légitime du HBL, après instruction du transitaire.
+7. **Un contrat d'agence protecteur.** Clause de confidentialité, clause de **non-sollicitation / non-contournement** (l'agent s'interdit de démarcher directement le fournisseur ou le client du trader), traçabilité des échanges, droit d'audit.
+
+### Les limites (à dire honnêtement au client)
+- Le **certificat d'origine** mentionne l'origine et souvent l'exportateur : on ne peut pas falsifier ce document pour cacher le fabricant.
+- **Douanes, banques, compagnies et autorités** peuvent exiger l'identité réelle des parties : la confidentialité commerciale s'arrête là.
+- **L'agent lui-même** connaît tout le monde : la confidentialité repose sur sa **fiabilité** (d'où la grille de sélection du Module 9) et sur des contrats.
+- Une confidentialité parfaite n'existe pas : la meilleure protection du trader reste la **valeur qu'il apporte** (financement, garantie, qualité, service), que les parties ne retrouveraient pas en traitant en direct.
+
+### Les risques liés à l'agent, et comment les réduire
+
+| Risque | Prévention |
+|--------|-----------|
+| L'agent démarche directement le client ou le fournisseur | Clause de non-contournement, réciprocité, relation de long terme, plusieurs agents par zone |
+| Fuite de documents (mauvais destinataire en copie) | Procédure d'envoi : deux listes de diffusion séparées (paquet A / paquet B), contrôle avant envoi |
+| Frais surprises | Grille tarifaire contractuelle, validation préalable de tout frais hors grille |
+| Défaillance financière | Vérification de solvabilité, paiements échelonnés, réseau avec garantie de paiement |
+| Non-conformité (sanctions, fausses déclarations) | Questionnaire de conformité, filtrage, droit d'audit, résiliation immédiate en cas de manquement |
+
+## 5B.5 ✍️ Application — Jeu de rôle « Le coup de téléphone » (10 minutes)
+
+**Situation :** la commerciale de Brightway appelle l'agent de Guangzhou : *« Notre client Hexa nous a parlé d'un gros projet à Madagascar. Pouvez-vous nous donner le nom de l'importateur ? Nous aimerions lui envoyer notre catalogue directement. »*
+
+**Rôles :** A = agent d'origine ; B = commerciale de Brightway ; C = transitaire (observateur) ; D = Hexa (reçoit le compte rendu).
+
+**Corrigé attendu :**
+- L'agent **refuse poliment** : *« Ces informations appartiennent à notre client. Nous ne pouvons communiquer que les éléments nécessaires à l'expédition. »*
+- Il **ne confirme ni n'infirme** le pays de destination au-delà de ce que le booking impose déjà.
+- Il **informe le transitaire**, qui informe **Hexa** (signal de tentative de contournement).
+- Hexa peut **rappeler la clause de non-contournement** de son contrat avec Brightway et **renforcer sa valeur** (volumes, paiement rapide) pour fidéliser son fournisseur.
+
+> 🧠 **À retenir du Module 5 bis :** *Chaque acteur voit l'opération depuis sa fenêtre. Le transitaire, lui, voit toute la maison, mais n'ouvre chaque fenêtre qu'à la personne qui a le droit d'y regarder. L'agent local est la serrure : il facilite le passage et garde les clés.*
 
 ---
 ➡️ **Suite : [Partie 2 — Modules 6 à 10](A2-cours-modules-6-a-10.md)**
