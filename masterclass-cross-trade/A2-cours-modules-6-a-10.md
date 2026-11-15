@@ -304,14 +304,14 @@ Chaque incident est traité selon : **Situation → Cause → Conséquences → 
 
 ```mermaid
 flowchart TB
-    subgraph UE["Union européenne (régions ultrapériphériques incluses)"]
-        subgraph TD["Territoire douanier de l'Union"]
-            REU["La Réunion ✅<br/>Mayotte ✅ (RUP depuis 2014)"]
+    subgraph TD["Territoire douanier de l'UE"]
+        subgraph TVA["Territoire TVA de l'UE"]
             MET["France métropolitaine"]
         end
-        TVA["Territoire TVA de l'UE<br/>= exclut les DOM ✅"]
+        REU["La Réunion<br/>TVA DOM 8,5 % / 2,1 % + octroi de mer"]
+        MAY["Mayotte (RUP depuis 2014)<br/>octroi de mer, TVA non applicable"]
     end
-    MU["Maurice, Madagascar, Comores, Seychelles<br/>= pays tiers"]
+    MU["Pays tiers : Maurice, Madagascar,<br/>Comores, Seychelles"]
 ```
 
 | Territoire | Union européenne | Territoire douanier de l'UE | Territoire TVA de l'UE | TVA française applicable ? | Octroi de mer |

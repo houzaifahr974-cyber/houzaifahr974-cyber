@@ -32,3 +32,13 @@ Ensuite, importer le `.pptx` dans PowerPoint ou Canva et remplacer les emplaceme
 
 ## ⏱️ Durée
 2 h 30 à 3 h (version courte de 2 h proposée dans le cours, A1).
+
+## 💼 Kit LinkedIn (dossier `linkedin/`)
+| Fichier | Usage |
+|---|---|
+| [Textes-LinkedIn.md](linkedin/Textes-LinkedIn.md) | Textes prêts à coller : section Cours, Projets, Sélection, 3 versions du post, premier commentaire, check-list |
+| `Carrousel-LinkedIn-Masterclass-Cross-Trade.pdf` | Carrousel de 16 slides (1080×1350) pour un post « Document » |
+| `Masterclass-Cross-Trade-Cours-complet.pdf` | Cours complet mis en page (A4, 73 pages, schémas inclus) pour la section Sélection |
+| `Visuel-Selection-1200x627.png` | Vignette pour la section Sélection |
+
+Régénération : `node outils/rendre_pdf.js linkedin/sources/carrousel.html linkedin/Carrousel-LinkedIn-Masterclass-Cross-Trade.pdf carrousel` et `MERMAID_JS=…/mermaid.min.js outils/construire_cours_pdf.sh` (nécessitent Playwright, pandoc et le paquet npm `mermaid`).
