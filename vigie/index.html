@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vigie, status line Claude Code</title>
+<meta name="description" content="Vigie affiche ton coût, ta limite 5 h, ta semaine et ton avance directement sous le chat de Claude Code.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* Layout : poste de vigie. Un bandeau terminal au centre, le reste aligné à gauche sur une grille de 12 colonnes. */
+  --sea: #0f2a44;        /* encre marine */
+  --foam: #f3f6f8;       /* fond écume */
+  --hull: #ffffff;       /* surfaces */
+  --buoy: #e8572a;       /* orange balise, l'accent */
+  --tide: #4f6b84;       /* texte secondaire */
+  --line: #d6dee6;       /* filets */
+  --term: #0b1622;       /* fond terminal */
+  --term-text: #d8e3ec;
+  --ok: #3fb27f;
+  --warn: #e4b23a;
+  --bad: #e5484d;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --sea: #e6eef5; --foam: #0a1520; --hull: #111f2d; --buoy: #ff7a4d;
+    --tide: #93a8bb; --line: #213244; --term: #060d14; --term-text: #d8e3ec;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --sea: #e6eef5; --foam: #0a1520; --hull: #111f2d; --buoy: #ff7a4d;
+  --tide: #93a8bb; --line: #213244; --term: #060d14; --term-text: #d8e3ec;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--foam);
+  color: var(--sea);
+  font: 17px/1.6 var(--body);
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--buoy); }
+:focus-visible { outline: 2px solid var(--buoy); outline-offset: 3px; border-radius: 4px; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; line-height: 1.08; margin: 0; }
+h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 700; letter-spacing: -0.02em; }
+h3 { font-size: 20px; font-weight: 700; }
+p { margin: 0; max-width: 62ch; }
+.muted { color: var(--tide); }
+code, .mono { font-family: var(--mono); }
+
+/* En-tête */
+header.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 0; }
+.brand { display: flex; align-items: center; gap: 10px; font-family: var(--display); font-weight: 800; font-size: 20px; letter-spacing: -0.01em; color: var(--sea); text-decoration: none; }
+.mark { width: 28px; height: 28px; border-radius: 7px; background: var(--sea); display: grid; place-items: center; }
+.mark svg { display: block; }
+.top nav { display: flex; gap: 22px; font-size: 15px; }
+.top nav a { color: var(--tide); text-decoration: none; }
+.top nav a:hover { color: var(--sea); }
+
+/* Hero */
+.hero { padding: 48px 0 40px; display: grid; gap: 28px; }
+.eyebrow { font-family: var(--mono); font-size: 13px; color: var(--buoy); letter-spacing: 0.04em; }
+.hero h1 { font-size: clamp(40px, 7vw, 76px); font-weight: 800; letter-spacing: -0.035em; max-width: 16ch; }
+.hero h1 em { font-style: normal; color: var(--buoy); }
+.hero p.lede { font-size: 20px; color: var(--tide); max-width: 52ch; }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.btn { font: 600 16px var(--body); border-radius: 10px; padding: 13px 20px; border: 1px solid transparent; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; }
+.btn.primary { background: var(--buoy); color: #fff; }
+.btn.primary:hover { filter: brightness(1.06); }
+.btn.ghost { background: transparent; color: var(--sea); border-color: var(--line); }
+.btn.ghost:hover { border-color: var(--tide); }
+
+/* Terminal de démo */
+.term {
+  background: var(--term); color: var(--term-text); border-radius: 14px;
+  box-shadow: 0 30px 60px -30px rgba(9, 25, 41, 0.55);
+  overflow: hidden; font-family: var(--mono); font-size: 14px;
+}
+.term .bar { display: flex; gap: 7px; padding: 12px 14px; border-bottom: 1px solid #1a2a3a; }
+.term .bar i { width: 11px; height: 11px; border-radius: 50%; background: #2a3b4c; display: block; }
+.term .body { padding: 18px 20px 6px; display: grid; gap: 8px; color: #8ea3b6; }
+.term .body .you { color: var(--term-text); }
+.term .body .you::before { content: "> "; color: var(--buoy); }
+.status {
+  margin: 14px 12px 12px; padding: 10px 14px; border-radius: 9px;
+  background: #0f1f2e; border: 1px solid #1d3043;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px;
+  font-variant-numeric: tabular-nums; overflow-x: auto;
+}
+.status .seg { display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; }
+.status .model { color: #6fc3df; font-weight: 600; }
+.status .lab { color: #7d93a7; }
+.meter { width: 64px; height: 4px; border-radius: 2px; background: #22364a; position: relative; overflow: hidden; }
+.meter > b { position: absolute; inset: 0 auto 0 0; border-radius: 2px; transition: width .6s ease; }
+.pace { padding: 2px 9px; border-radius: 6px; font-weight: 600; }
+.pace.ahead { color: var(--ok); background: rgba(63, 178, 127, 0.14); }
+.pace.behind { color: var(--bad); background: rgba(229, 72, 77, 0.14); }
+
+/* Simulateur */
+.sim { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 18px; }
+.sim label { display: grid; gap: 6px; font-size: 14px; color: var(--tide); }
+.sim output { font-family: var(--mono); color: var(--sea); font-variant-numeric: tabular-nums; }
+.sim input[type="range"] { width: 100%; accent-color: var(--buoy); }
+.simnote { font-size: 14px; color: var(--tide); margin-top: 10px; }
+
+section { padding: 64px 0; border-top: 1px solid var(--line); }
+.sec-head { display: grid; gap: 12px; margin-bottom: 32px; }
+
+/* Ce que tu vois */
+.readout { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.readout > div { background: var(--hull); padding: 22px 18px; display: grid; gap: 8px; align-content: start; }
+.readout .tag { font-family: var(--mono); font-size: 13px; color: var(--buoy); }
+.readout p { font-size: 15px; color: var(--tide); }
+
+/* Calcul de l'avance */
+.calc { display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: start; }
+.formula { background: var(--hull); border: 1px solid var(--line); border-radius: 14px; padding: 24px; display: grid; gap: 14px; }
+.formula .eq { font-family: var(--mono); font-size: 15px; line-height: 1.7; overflow-x: auto; }
+.formula .eq b { color: var(--buoy); font-weight: 600; }
+.example { font-size: 15px; color: var(--tide); border-left: 3px solid var(--buoy); padding-left: 14px; }
+
+/* Installation */
+.steps { display: grid; gap: 18px; counter-reset: step; }
+.step { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 16px; align-items: start; }
+.step .n { counter-increment: step; width: 36px; height: 36px; border-radius: 50%; border: 1.5px solid var(--sea); display: grid; place-items: center; font-family: var(--mono); font-weight: 600; font-size: 14px; }
+.step .n::before { content: counter(step); }
+.step .txt { display: grid; gap: 10px; min-width: 0; }
+.code { position: relative; background: var(--term); color: var(--term-text); border-radius: 10px; font: 14px/1.6 var(--mono); }
+.code pre { margin: 0; padding: 14px 92px 14px 16px; overflow-x: auto; }
+.copy { position: absolute; top: 9px; right: 9px; font: 600 13px var(--body); color: var(--term-text); background: #1b2d3f; border: 1px solid #2a4157; border-radius: 7px; padding: 6px 10px; cursor: pointer; }
+.copy:hover { background: #24394e; }
+
+/* Garanties */
+.pledges { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.pledges > div { display: grid; gap: 8px; padding-top: 16px; border-top: 2px solid var(--sea); }
+.pledges p { font-size: 15px; color: var(--tide); }
+
+/* FAQ */
+details { border-bottom: 1px solid var(--line); padding: 18px 0; }
+details summary { cursor: pointer; font-weight: 600; font-size: 17px; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+details summary::after { content: "+"; font-family: var(--mono); color: var(--buoy); }
+details[open] summary::after { content: "−"; }
+details p { margin-top: 10px; color: var(--tide); font-size: 16px; }
+
+footer { padding: 40px 0 56px; border-top: 1px solid var(--line); font-size: 14px; color: var(--tide); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+
+@media (max-width: 860px) {
+  .readout { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .readout > div:last-child { grid-column: span 2; }
+  .calc, .pledges { grid-template-columns: 1fr; }
+  .top nav { display: none; }
+}
+@media (max-width: 520px) {
+  body { font-size: 16px; }
+  .wrap { padding: 0 16px; }
+  .sim { grid-template-columns: 1fr; }
+  .readout { grid-template-columns: 1fr; }
+  .readout > div:last-child { grid-column: auto; }
+  .hero p.lede { font-size: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .meter > b { transition: none; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="#top" aria-label="Vigie, accueil">
+      <span class="mark" aria-hidden="true">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 12h12M8 12V3M8 3l4 4H8" stroke="#ff7a4d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      Vigie
+    </a>
+    <nav aria-label="Sections">
+      <a href="#affichage">Affichage</a>
+      <a href="#avance">L'avance</a>
+      <a href="#installer">Installer</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="top">
+    <span class="eyebrow">STATUS LINE POUR CLAUDE CODE</span>
+    <h1>Garde un œil sur ta conso, <em>sans quitter le chat.</em></h1>
+    <p class="lede">Vigie affiche ton coût de session, ta limite 5 h, ta semaine et ton avance sur une seule ligne, juste sous la saisie de Claude Code.</p>
+    <div class="cta">
+      <a class="btn primary" href="#installer">Installer en 2 minutes</a>
+      <a class="btn ghost" href="#avance">Comment l'avance est calculée</a>
+    </div>
+
+    <div class="term" role="img" aria-label="Aperçu de Claude Code avec la ligne Vigie en bas">
+      <div class="bar" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="body" aria-hidden="true">
+        <span class="you">Ajoute un export CSV au rapport des expéditions</span>
+        <span>● Je lis rapport_expeditions.py et prépare la fonction d'export…</span>
+      </div>
+      <div class="status" id="status">
+        <span class="seg model">›_ Opus</span>
+        <span class="seg"><span class="lab">$</span><span id="s-cost">4.21</span></span>
+        <span class="seg"><span class="lab">5h</span><span class="meter"><b id="m-five"></b></span><span id="s-five">42%</span></span>
+        <span class="seg"><span class="lab">Sem</span><span class="meter"><b id="m-week"></b></span><span id="s-week">61%</span></span>
+        <span class="seg pace ahead" id="s-pace">+10,4 % d'avance</span>
+      </div>
+    </div>
+
+    <div>
+      <div class="sim" aria-label="Simulateur">
+        <label for="r-five">Limite 5 h utilisée <output id="o-five" for="r-five">42 %</output>
+          <input type="range" id="r-five" min="0" max="100" value="42">
+        </label>
+        <label for="r-week">Semaine utilisée <output id="o-week" for="r-week">61 %</output>
+          <input type="range" id="r-week" min="0" max="100" value="61">
+        </label>
+        <label for="r-day">Jours écoulés depuis le reset <output id="o-day" for="r-day">5,0 j</output>
+          <input type="range" id="r-day" min="0" max="7" step="0.1" value="5">
+        </label>
+      </div>
+      <p class="simnote">Bouge les curseurs : la ligne ci-dessus se met à jour avec le même calcul que le script.</p>
+    </div>
+  </div>
+</div>
+
+<section id="affichage">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Cinq repères, une seule ligne</h2>
+      <p class="muted">Chaque segment n'apparaît que si Claude Code fournit la donnée. Rien n'est inventé ni estimé à ta place.</p>
+    </div>
+    <div class="readout">
+      <div><span class="tag">›_ Opus</span><h3>Modèle</h3><p>Le modèle qui répond en ce moment.</p></div>
+      <div><span class="tag">$4.21</span><h3>Coût</h3><p>Coût cumulé de la session, en dollars.</p></div>
+      <div><span class="tag">ctx 31%</span><h3>Contexte</h3><p>Part de la fenêtre de contexte déjà remplie.</p></div>
+      <div><span class="tag">5h · Sem</span><h3>Limites</h3><p>Ta fenêtre de 5 h et ton quota de 7 jours. La barre passe à l'orange à 60 %, au rouge à 85 %.</p></div>
+      <div><span class="tag">+10,4 %</span><h3>Avance</h3><p>Ton rythme réel comparé à un rythme régulier sur la semaine.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="avance">
+  <div class="wrap calc">
+    <div class="sec-head">
+      <h2>L'avance, c'est ta marge sur la semaine</h2>
+      <p class="muted">Si tu consommais ton quota hebdo de façon parfaitement régulière, tu en aurais utilisé autant que la part de semaine écoulée. L'avance mesure l'écart avec ce rythme.</p>
+      <p class="muted">Positive en vert : tu as de la réserve. Négative en rouge : à ce rythme, tu atteindras la limite avant le reset.</p>
+    </div>
+    <div class="formula">
+      <div class="eq">semaine écoulée = 1 − (reset − maintenant) / 7 j<br><b>avance</b> = semaine écoulée × 100 − % semaine utilisé</div>
+      <p class="example">Exemple : reset dans 2 jours, donc 5 jours sur 7 écoulés, soit 71,4 %. Tu as utilisé 61 % du quota. Avance : 71,4 − 61 = <strong>+10,4 %</strong>.</p>
+    </div>
+  </div>
+</section>
+
+<section id="installer">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Installer Vigie</h2>
+      <p class="muted">Il te faut Node.js 18 ou plus récent. Aucune autre dépendance.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="n" aria-hidden="true"></span>
+        <div class="txt">
+          <h3>Télécharge le script</h3>
+          <div class="code"><pre id="c1">curl -fsSL https://raw.githubusercontent.com/houzaifahr974-cyber/houzaifahr974-cyber/main/vigie/vigie.mjs -o ~/.claude/vigie.mjs</pre><button class="copy" type="button" data-target="c1">Copier</button></div>
+        </div>
+      </div>
+      <div class="step">
+        <span class="n" aria-hidden="true"></span>
+        <div class="txt">
+          <h3>Ajoute-le à <code>~/.claude/settings.json</code></h3>
+          <div class="code"><pre id="c2">{
+  "statusLine": {
+    "type": "command",
+    "command": "node ~/.claude/vigie.mjs"
+  }
+}</pre><button class="copy" type="button" data-target="c2">Copier</button></div>
+          <p class="muted">Si le fichier contient déjà d'autres réglages, ajoute seulement le bloc <code>"statusLine"</code>.</p>
+        </div>
+      </div>
+      <div class="step">
+        <span class="n" aria-hidden="true"></span>
+        <div class="txt">
+          <h3>Relance Claude Code</h3>
+          <p class="muted">La ligne apparaît sous la zone de saisie et se met à jour à chaque message.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap pledges">
+    <div><h3>Zéro réseau</h3><p>Le script ne fait aucun appel internet. Il lit seulement ce que Claude Code lui envoie.</p></div>
+    <div><h3>Aucun jeton lu</h3><p>Vigie ne touche ni à tes identifiants ni à ta clé API.</p></div>
+    <div><h3>Un fichier lisible</h3><p>Une centaine de lignes de JavaScript, sans dépendance. Tu peux tout relire avant de l'installer.</p></div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head"><h2>Questions fréquentes</h2></div>
+    <details>
+      <summary>Pourquoi je ne vois pas les barres 5 h et Semaine ?</summary>
+      <p>Ces données ne sont envoyées par Claude Code qu'avec un abonnement Claude (Pro ou Max) et une version récente de Claude Code. Avec une clé API, tu vois le modèle, le coût et le contexte, sans les limites.</p>
+    </details>
+    <details>
+      <summary>Ça marche sur Windows ?</summary>
+      <p>Oui, tant que Node.js est installé. Remplace <code>~</code> par le chemin complet de ton dossier utilisateur dans la commande et dans settings.json.</p>
+    </details>
+    <details>
+      <summary>Comment désinstaller ?</summary>
+      <p>Retire le bloc <code>"statusLine"</code> de settings.json, puis supprime le fichier <code>~/.claude/vigie.mjs</code>.</p>
+    </details>
+    <details>
+      <summary>Ça ralentit Claude Code ?</summary>
+      <p>Non. Le script lit un petit JSON et affiche une ligne. Il tourne en quelques millisecondes.</p>
+    </details>
+  </div>
+</section>
+
+<div class="wrap">
+  <footer>
+    <span>Vigie, une status line créée par Houzaifah Rassolmian.</span>
+    <span>Projet indépendant, non affilié à Anthropic.</span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var WEEK = 7;
+  function color(p) { return p >= 85 ? "var(--bad)" : p >= 60 ? "var(--warn)" : "var(--ok)"; }
+  function fr(n, d) { return n.toFixed(d).replace(".", ","); }
+  function el(id) { return document.getElementById(id); }
+
+  function update() {
+    var five = +el("r-five").value, week = +el("r-week").value, day = +el("r-day").value;
+    el("o-five").textContent = five + " %";
+    el("o-week").textContent = week + " %";
+    el("o-day").textContent = fr(day, 1) + " j";
+    el("s-five").textContent = five + "%";
+    el("s-week").textContent = week + "%";
+    var mf = el("m-five"), mw = el("m-week");
+    mf.style.width = five + "%"; mf.style.background = color(five);
+    mw.style.width = week + "%"; mw.style.background = color(week);
+    var ahead = (day / WEEK) * 100 - week;
+    var p = el("s-pace");
+    p.textContent = (ahead >= 0 ? "+" : "") + fr(ahead, 1) + (ahead >= 0 ? " % d'avance" : " % de retard");
+    p.className = "seg pace " + (ahead >= 0 ? "ahead" : "behind");
+  }
+  ["r-five", "r-week", "r-day"].forEach(function (id) { el(id).addEventListener("input", update); });
+  update();
+
+  document.querySelectorAll(".copy").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var text = el(b.getAttribute("data-target")).textContent;
+      var done = function (ok) {
+        b.textContent = ok ? "Copié" : "Sélectionne le texte";
+        setTimeout(function () { b.textContent = "Copier"; }, 1800);
+      };
+      try { navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(false); }); }
+      catch (e) { done(false); }
+    });
+  });
+})();
+</script>
+</body>
+</html>
